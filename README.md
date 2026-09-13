@@ -101,3 +101,8 @@ python3 src/task2_compare.py
 ## 🔗 Submission Links
 - **GitHub Repository**: [https://github.com/tony19053000/Information-Retrieval-Assignment](https://github.com/tony19053000/Information-Retrieval-Assignment)
 - **Detailed Report**: [IR_Assignment_Final_Report.md](IR_Assignment_Final_Report.md)
+
+---
+
+## 🤖 AI Usage Statement
+In accordance with assignment guidelines: AI tools were used for code structuring, regex refinement, and report drafting. All datasets, metric evaluations, and normalization outputs were independently run and verified locally via Python scripts.

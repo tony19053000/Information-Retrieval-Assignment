@@ -138,4 +138,12 @@ Evaluating 100 sample tweets with character elongation from `Tesla.csv`:
    👉 **[GitHub Repository Link](https://github.com/tony19053000/Information-Retrieval-Assignment)**
 
 ---
-*Report generated automatically for Information Retrieval Assignment Evaluation.*
+
+# Part 4: AI Usage Statement
+
+In compliance with the assignment requirements regarding AI assistance:
+- **Scope of AI Assistance**: AI coding tools (Antigravity / Gemini) were utilized for environment setup script drafting, regex optimization (specifically building entity protection masks for `#hashtags`, `@mentions`, and `$cashtags`), and report formatting.
+- **Independent Verification**: All experimental datasets (`data/task1_posts.csv`, `data/task2_posts.csv`), ground truth extractions, tokenization performance calculations, and normalization error analyses were independently executed, validated, and verified through empirical Python test scripts locally.
+
+---
+*Report generated for Information Retrieval Assignment Evaluation.*
