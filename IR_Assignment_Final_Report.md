@@ -2,7 +2,7 @@
 
 **Course**: Information Retrieval  
 **Dataset**: Tesla Twitter Corpus (`Tesla.csv`)  
-**Repository**: [github.com/tony19053000/IR-Assignment-Tokenization-Normalization](https://github.com/tony19053000/IR-Assignment-Tokenization-Normalization)
+**Repository**: [github.com/tony19053000/Information-Retrieval-Assignment](https://github.com/tony19053000/Information-Retrieval-Assignment)
 
 ---
 
@@ -135,7 +135,7 @@ Evaluating 100 sample tweets with character elongation from `Tesla.csv`:
 1. **Tokenizer Selection**: `NLTK TweetTokenizer` is the optimal choice for indexing social media texts, maintaining high precision across domain-specific token types while minimizing vocabulary fragmentation.
 2. **Preprocessing Pipeline Integration**: Repeated character normalization using Zipf word frequency scoring significantly reduces OOV dictionary terms while preserving financial symbols (`$QQQ`), social mentions, and URLs.
 3. **GitHub Repository**: Complete source code, dataset scripts, test pipelines, and log outputs are available at:  
-   👉 **[GitHub Repository Link](https://github.com/tony19053000/IR-Assignment-Tokenization-Normalization)**
+   👉 **[GitHub Repository Link](https://github.com/tony19053000/Information-Retrieval-Assignment)**
 
 ---
 *Report generated automatically for Information Retrieval Assignment Evaluation.*
