@@ -1,0 +1,1250 @@
+================================================================================
+POST 1
+================================================================================
+
+ORIGINAL:
+#ICYMI  #Vibes To Ease You Back Into The #Work Week! Join Me In The Latest #Liveone #HIPHOP #RnB Countdown...U Pick Em, I Play Em @liveone   Listen On The Job, On The Go...In Ya @Tesla  ▶️ https://t.co/xLTr3ndbDM  https://t.co/cbYgGKVetn
+
+GROUND TRUTH:
+Hashtags: ['#ICYMI', '#Vibes', '#Work', '#Liveone', '#HIPHOP', '#RnB']
+Mentions: ['@liveone', '@Tesla']
+URLs: ['https://t.co/xLTr3ndbDM', 'https://t.co/cbYgGKVetn']
+Emojis: ['▶️']
+
+NLTK TWEET TOKENIZER:
+['#ICYMI', '#Vibes', 'To', 'Ease', 'You', 'Back', 'Into', 'The', '#Work', 'Week', '!', 'Join', 'Me', 'In', 'The', 'Latest', '#Liveone', '#HIPHOP', '#RnB', 'Countdown', '...', 'U', 'Pick', 'Em', ',', 'I', 'Play', 'Em', '@liveone', 'Listen', 'On', 'The', 'Job', ',', 'On', 'The', 'Go', '...', 'In', 'Ya', '@Tesla', '▶', '️', 'https://t.co/xLTr3ndbDM', 'https://t.co/cbYgGKVetn']
+Token count: 45
+
+SPACY:
+['#', 'ICYMI', ' ', '#', 'Vibes', 'To', 'Ease', 'You', 'Back', 'Into', 'The', '#', 'Work', 'Week', '!', 'Join', 'Me', 'In', 'The', 'Latest', '#', 'Liveone', '#', 'HIPHOP', '#', 'RnB', 'Countdown', '...', 'U', 'Pick', 'Em', ',', 'I', 'Play', 'Em', '@liveone', '  ', 'Listen', 'On', 'The', 'Job', ',', 'On', 'The', 'Go', '...', 'In', 'Ya', '@Tesla', ' ', '▶', '️', 'https://t.co/xLTr3ndbDM', ' ', 'https://t.co/cbYgGKVetn']
+Token count: 55
+
+NLTK WORD TOKENIZE:
+['#', 'ICYMI', '#', 'Vibes', 'To', 'Ease', 'You', 'Back', 'Into', 'The', '#', 'Work', 'Week', '!', 'Join', 'Me', 'In', 'The', 'Latest', '#', 'Liveone', '#', 'HIPHOP', '#', 'RnB', 'Countdown', '...', 'U', 'Pick', 'Em', ',', 'I', 'Play', 'Em', '@', 'liveone', 'Listen', 'On', 'The', 'Job', ',', 'On', 'The', 'Go', '...', 'In', 'Ya', '@', 'Tesla', '▶️', 'https', ':', '//t.co/xLTr3ndbDM', 'https', ':', '//t.co/cbYgGKVetn']
+Token count: 56
+
+================================================================================
+POST 2
+================================================================================
+
+ORIGINAL:
+@rovercrc #btc I guess it will go higher this week maybe 70k lol 😆 @cryptocom $tesla #BNB #Bitcoin  https://t.co/H4ivHAJac2
+
+GROUND TRUTH:
+Hashtags: ['#btc', '#BNB', '#Bitcoin']
+Mentions: ['@rovercrc', '@cryptocom']
+URLs: ['https://t.co/H4ivHAJac2']
+Emojis: ['😆']
+
+NLTK TWEET TOKENIZER:
+['@rovercrc', '#btc', 'I', 'guess', 'it', 'will', 'go', 'higher', 'this', 'week', 'maybe', '70k', 'lol', '😆', '@cryptocom', '$', 'tesla', '#BNB', '#Bitcoin', 'https://t.co/H4ivHAJac2']
+Token count: 20
+
+SPACY:
+['@rovercrc', '#', 'btc', 'I', 'guess', 'it', 'will', 'go', 'higher', 'this', 'week', 'maybe', '70k', 'lol', '😆', '@cryptocom', '$', 'tesla', '#', 'BNB', '#', 'Bitcoin', ' ', 'https://t.co/H4ivHAJac2']
+Token count: 24
+
+NLTK WORD TOKENIZE:
+['@', 'rovercrc', '#', 'btc', 'I', 'guess', 'it', 'will', 'go', 'higher', 'this', 'week', 'maybe', '70k', 'lol', '😆', '@', 'cryptocom', '$', 'tesla', '#', 'BNB', '#', 'Bitcoin', 'https', ':', '//t.co/H4ivHAJac2']
+Token count: 27
+
+================================================================================
+POST 3
+================================================================================
+
+ORIGINAL:
+I'm without glasses so I cannot see if he had a Tesla logo... lol 😆 🤣 😂  I'm very happy he played chess. #chess @FIDE_chess @USChess  https://t.co/hWUrAqttlZ
+
+GROUND TRUTH:
+Hashtags: ['#chess']
+Mentions: ['@FIDE_chess', '@USChess']
+URLs: ['https://t.co/hWUrAqttlZ']
+Emojis: ['😆', '🤣', '😂']
+
+NLTK TWEET TOKENIZER:
+["I'm", 'without', 'glasses', 'so', 'I', 'cannot', 'see', 'if', 'he', 'had', 'a', 'Tesla', 'logo', '...', 'lol', '😆', '🤣', '😂', "I'm", 'very', 'happy', 'he', 'played', 'chess', '.', '#chess', '@FIDE_chess', '@USChess', 'https://t.co/hWUrAqttlZ']
+Token count: 29
+
+SPACY:
+['I', "'m", 'without', 'glasses', 'so', 'I', 'can', 'not', 'see', 'if', 'he', 'had', 'a', 'Tesla', 'logo', '...', 'lol', '😆', '🤣', '😂', ' ', 'I', "'m", 'very', 'happy', 'he', 'played', 'chess', '.', '#', 'chess', '@FIDE_chess', '@USChess', ' ', 'https://t.co/hWUrAqttlZ']
+Token count: 35
+
+NLTK WORD TOKENIZE:
+['I', "'m", 'without', 'glasses', 'so', 'I', 'can', 'not', 'see', 'if', 'he', 'had', 'a', 'Tesla', 'logo', '...', 'lol', '😆', '🤣', '😂', 'I', "'m", 'very', 'happy', 'he', 'played', 'chess', '.', '#', 'chess', '@', 'FIDE_chess', '@', 'USChess', 'https', ':', '//t.co/hWUrAqttlZ']
+Token count: 37
+
+================================================================================
+POST 4
+================================================================================
+
+ORIGINAL:
+@VoltInuOfficial My entry  $volt #volt #voltinu  Nikola Tesla beats Thomas Edison in creating the most powerful source of electricity ⚡️  https://t.co/KWoXJXj4n6
+
+GROUND TRUTH:
+Hashtags: ['#volt', '#voltinu']
+Mentions: ['@VoltInuOfficial']
+URLs: ['https://t.co/KWoXJXj4n6']
+Emojis: ['⚡']
+
+NLTK TWEET TOKENIZER:
+['@VoltInuOfficial', 'My', 'entry', '$', 'volt', '#volt', '#voltinu', 'Nikola', 'Tesla', 'beats', 'Thomas', 'Edison', 'in', 'creating', 'the', 'most', 'powerful', 'source', 'of', 'electricity', '⚡', '️', 'https://t.co/KWoXJXj4n6']
+Token count: 23
+
+SPACY:
+['@VoltInuOfficial', 'My', 'entry', ' ', '$', 'volt', '#', 'volt', '#', 'voltinu', ' ', 'Nikola', 'Tesla', 'beats', 'Thomas', 'Edison', 'in', 'creating', 'the', 'most', 'powerful', 'source', 'of', 'electricity', '⚡', '️', ' ', 'https://t.co/KWoXJXj4n6']
+Token count: 28
+
+NLTK WORD TOKENIZE:
+['@', 'VoltInuOfficial', 'My', 'entry', '$', 'volt', '#', 'volt', '#', 'voltinu', 'Nikola', 'Tesla', 'beats', 'Thomas', 'Edison', 'in', 'creating', 'the', 'most', 'powerful', 'source', 'of', 'electricity', '⚡️', 'https', ':', '//t.co/KWoXJXj4n6']
+Token count: 27
+
+================================================================================
+POST 5
+================================================================================
+
+ORIGINAL:
+@socratesxoxo @thefarcentrist @ThomasMoneyhon @coldgamecrispy @TheAlexisKraft @elonmusk "He also paid off his debt unlike u did"  Boy, you're just full of your ASSuming self aren't you. 🤭  So the 2 ..3 guys that started Tesla 'were not revolutionizing' the electric car industry  🤦‍♀️  Show me my "misinformation"  I've attached a few of yours  ...  https://t.co/39IFmDq79y
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk']
+URLs: ['https://t.co/39IFmDq79y']
+Emojis: ['🤭', '🤦\u200d♀️']
+
+NLTK TWEET TOKENIZER:
+['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk', '"', 'He', 'also', 'paid', 'off', 'his', 'debt', 'unlike', 'u', 'did', '"', 'Boy', ',', "you're", 'just', 'full', 'of', 'your', 'ASSuming', 'self', "aren't", 'you', '.', '🤭', 'So', 'the', '2', '..', '3', 'guys', 'that', 'started', 'Tesla', "'", 'were', 'not', 'revolutionizing', "'", 'the', 'electric', 'car', 'industry', '🤦\u200d♀', '️', 'Show', 'me', 'my', '"', 'misinformation', '"', "I've", 'attached', 'a', 'few', 'of', 'yours', '...', 'https://t.co/39IFmDq79y']
+Token count: 64
+
+SPACY:
+['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk', '"', 'He', 'also', 'paid', 'off', 'his', 'debt', 'unlike', 'u', 'did', '"', ' ', 'Boy', ',', 'you', "'re", 'just', 'full', 'of', 'your', 'ASSuming', 'self', 'are', "n't", 'you', '.', '🤭', ' ', 'So', 'the', '2', '..', '3', 'guys', 'that', 'started', 'Tesla', "'", 'were', 'not', 'revolutionizing', "'", 'the', 'electric', 'car', 'industry', ' ', '🤦', '\u200d', '♀', '️', ' ', 'Show', 'me', 'my', '"', 'misinformation', '"', ' ', 'I', "'ve", 'attached', 'a', 'few', 'of', 'yours', ' ', '...', ' ', 'https://t.co/39IFmDq79y']
+Token count: 76
+
+NLTK WORD TOKENIZE:
+['@', 'socratesxoxo', '@', 'thefarcentrist', '@', 'ThomasMoneyhon', '@', 'coldgamecrispy', '@', 'TheAlexisKraft', '@', 'elonmusk', '``', 'He', 'also', 'paid', 'off', 'his', 'debt', 'unlike', 'u', 'did', "''", 'Boy', ',', 'you', "'re", 'just', 'full', 'of', 'your', 'ASSuming', 'self', 'are', "n't", 'you', '.', '🤭', 'So', 'the', '2', '..', '3', 'guys', 'that', 'started', 'Tesla', "'", 'were', 'not', 'revolutionizing', "'", 'the', 'electric', 'car', 'industry', '🤦\u200d♀️', 'Show', 'me', 'my', '``', 'misinformation', "''", 'I', "'ve", 'attached', 'a', 'few', 'of', 'yours', '...', 'https', ':', '//t.co/39IFmDq79y']
+Token count: 74
+
+================================================================================
+POST 6
+================================================================================
+
+ORIGINAL:
+Want to charge ⚡️your non-@tesla at a public Supercharger site? Fancy some of Elon's electrons? @Nickishields takes you through the whole process...  See the full video and other charging guides:  https://t.co/RSpqLajjjd #tesla #supercharging  https://t.co/fKj9kmySuB
+
+GROUND TRUTH:
+Hashtags: ['#tesla', '#supercharging']
+Mentions: ['@tesla', '@Nickishields']
+URLs: ['https://t.co/RSpqLajjjd', 'https://t.co/fKj9kmySuB']
+Emojis: ['⚡']
+
+NLTK TWEET TOKENIZER:
+['Want', 'to', 'charge', '⚡', '️your', 'non', '-', '@tesla', 'at', 'a', 'public', 'Supercharger', 'site', '?', 'Fancy', 'some', 'of', "Elon's", 'electrons', '?', '@Nickishields', 'takes', 'you', 'through', 'the', 'whole', 'process', '...', 'See', 'the', 'full', 'video', 'and', 'other', 'charging', 'guides', ':', 'https://t.co/RSpqLajjjd', '#tesla', '#supercharging', 'https://t.co/fKj9kmySuB']
+Token count: 41
+
+SPACY:
+['Want', 'to', 'charge', '⚡', '️your', 'non-@tesla', 'at', 'a', 'public', 'Supercharger', 'site', '?', 'Fancy', 'some', 'of', 'Elon', "'s", 'electrons', '?', '@Nickishields', 'takes', 'you', 'through', 'the', 'whole', 'process', '...', ' ', 'See', 'the', 'full', 'video', 'and', 'other', 'charging', 'guides', ':', ' ', 'https://t.co/RSpqLajjjd', '#', 'tesla', '#', 'supercharging', ' ', 'https://t.co/fKj9kmySuB']
+Token count: 45
+
+NLTK WORD TOKENIZE:
+['Want', 'to', 'charge', '⚡️your', 'non-', '@', 'tesla', 'at', 'a', 'public', 'Supercharger', 'site', '?', 'Fancy', 'some', 'of', 'Elon', "'s", 'electrons', '?', '@', 'Nickishields', 'takes', 'you', 'through', 'the', 'whole', 'process', '...', 'See', 'the', 'full', 'video', 'and', 'other', 'charging', 'guides', ':', 'https', ':', '//t.co/RSpqLajjjd', '#', 'tesla', '#', 'supercharging', 'https', ':', '//t.co/fKj9kmySuB']
+Token count: 48
+
+================================================================================
+POST 7
+================================================================================
+
+ORIGINAL:
+"The #nickel reserve in #Quebec can DOUBLE."  Find out when @CampbellMccrary of #AMVESTCapital invites Tony Guo CEO of Nickel North $NNX.V  🗓 1:00pm EST Thurs July 14, 2022 #Join 👉  https://t.co/qoeqcRlZX7 #cleanenergy #battery $TSLA @Tesla @JulesInvest @Rivian @RivianChat  https://t.co/K6NKeAkweZ
+
+GROUND TRUTH:
+Hashtags: ['#nickel', '#Quebec', '#AMVESTCapital', '#Join', '#cleanenergy', '#battery']
+Mentions: ['@CampbellMccrary', '@Tesla', '@JulesInvest', '@Rivian', '@RivianChat']
+URLs: ['https://t.co/qoeqcRlZX7', 'https://t.co/K6NKeAkweZ']
+Emojis: ['🗓', '👉']
+
+NLTK TWEET TOKENIZER:
+['"', 'The', '#nickel', 'reserve', 'in', '#Quebec', 'can', 'DOUBLE', '.', '"', 'Find', 'out', 'when', '@CampbellMccrary', 'of', '#AMVESTCapital', 'invites', 'Tony', 'Guo', 'CEO', 'of', 'Nickel', 'North', '$', 'NNX', '.', 'V', '🗓', '1:00', 'pm', 'EST', 'Thurs', 'July', '14', ',', '2022', '#Join', '👉', 'https://t.co/qoeqcRlZX7', '#cleanenergy', '#battery', '$', 'TSLA', '@Tesla', '@JulesInvest', '@Rivian', '@RivianChat', 'https://t.co/K6NKeAkweZ']
+Token count: 48
+
+SPACY:
+['"', 'The', '#', 'nickel', 'reserve', 'in', '#', 'Quebec', 'can', 'DOUBLE', '.', '"', ' ', 'Find', 'out', 'when', '@CampbellMccrary', 'of', '#', 'AMVESTCapital', 'invites', 'Tony', 'Guo', 'CEO', 'of', 'Nickel', 'North', '$', 'NNX.V', ' ', '🗓', '1:00pm', 'EST', 'Thurs', 'July', '14', ',', '2022', '#', 'Join', '👉', ' ', 'https://t.co/qoeqcRlZX7', '#', 'cleanenergy', '#', 'battery', '$', 'TSLA', '@Tesla', '@JulesInvest', '@Rivian', '@RivianChat', ' ', 'https://t.co/K6NKeAkweZ']
+Token count: 55
+
+NLTK WORD TOKENIZE:
+['``', 'The', '#', 'nickel', 'reserve', 'in', '#', 'Quebec', 'can', 'DOUBLE', '.', "''", 'Find', 'out', 'when', '@', 'CampbellMccrary', 'of', '#', 'AMVESTCapital', 'invites', 'Tony', 'Guo', 'CEO', 'of', 'Nickel', 'North', '$', 'NNX.V', '🗓', '1:00pm', 'EST', 'Thurs', 'July', '14', ',', '2022', '#', 'Join', '👉', 'https', ':', '//t.co/qoeqcRlZX7', '#', 'cleanenergy', '#', 'battery', '$', 'TSLA', '@', 'Tesla', '@', 'JulesInvest', '@', 'Rivian', '@', 'RivianChat', 'https', ':', '//t.co/K6NKeAkweZ']
+Token count: 60
+
+================================================================================
+POST 8
+================================================================================
+
+ORIGINAL:
+Gotta be nice to your Tesla ‘s. 🤖on wheels. @elonmusk @WholeMarsBlog @teslaownersSV @TeslaDiva99 @TeslaJoy @28delayslater  https://t.co/TlRnIUxIb6
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@WholeMarsBlog', '@teslaownersSV', '@TeslaDiva99', '@TeslaJoy', '@28delayslater']
+URLs: ['https://t.co/TlRnIUxIb6']
+Emojis: ['🤖']
+
+NLTK TWEET TOKENIZER:
+['Gotta', 'be', 'nice', 'to', 'your', 'Tesla', '‘', 's', '.', '🤖', 'on', 'wheels', '.', '@elonmusk', '@WholeMarsBlog', '@teslaownersSV', '@TeslaDiva99', '@TeslaJoy', '@28delayslater', 'https://t.co/TlRnIUxIb6']
+Token count: 20
+
+SPACY:
+['Got', 'ta', 'be', 'nice', 'to', 'your', 'Tesla', '‘', 's.', '🤖', 'on', 'wheels', '.', '@elonmusk', '@WholeMarsBlog', '@teslaownersSV', '@TeslaDiva99', '@TeslaJoy', '@28delayslater', ' ', 'https://t.co/TlRnIUxIb6']
+Token count: 21
+
+NLTK WORD TOKENIZE:
+['Got', 'ta', 'be', 'nice', 'to', 'your', 'Tesla', '‘', 's', '.', '🤖on', 'wheels', '.', '@', 'elonmusk', '@', 'WholeMarsBlog', '@', 'teslaownersSV', '@', 'TeslaDiva99', '@', 'TeslaJoy', '@', '28delayslater', 'https', ':', '//t.co/TlRnIUxIb6']
+Token count: 28
+
+================================================================================
+POST 9
+================================================================================
+
+ORIGINAL:
+Modern day Nikola #Tesla 🤔🤔🤔 what do you think? 🔥🔥🔥 #ElonMusk @elonmusk #dogearmy #dogecoin  https://t.co/Fc2ZSBmRcG
+
+GROUND TRUTH:
+Hashtags: ['#Tesla', '#ElonMusk', '#dogearmy', '#dogecoin']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/Fc2ZSBmRcG']
+Emojis: ['🤔', '🤔', '🤔', '🔥', '🔥', '🔥']
+
+NLTK TWEET TOKENIZER:
+['Modern', 'day', 'Nikola', '#Tesla', '🤔', '🤔', '🤔', 'what', 'do', 'you', 'think', '?', '🔥', '🔥', '🔥', '#ElonMusk', '@elonmusk', '#dogearmy', '#dogecoin', 'https://t.co/Fc2ZSBmRcG']
+Token count: 20
+
+SPACY:
+['Modern', 'day', 'Nikola', '#', 'Tesla', '🤔', '🤔', '🤔', 'what', 'do', 'you', 'think', '?', '🔥', '🔥', '🔥', '#', 'ElonMusk', '@elonmusk', '#', 'dogearmy', '#', 'dogecoin', ' ', 'https://t.co/Fc2ZSBmRcG']
+Token count: 25
+
+NLTK WORD TOKENIZE:
+['Modern', 'day', 'Nikola', '#', 'Tesla', '🤔🤔🤔', 'what', 'do', 'you', 'think', '?', '🔥🔥🔥', '#', 'ElonMusk', '@', 'elonmusk', '#', 'dogearmy', '#', 'dogecoin', 'https', ':', '//t.co/Fc2ZSBmRcG']
+Token count: 23
+
+================================================================================
+POST 10
+================================================================================
+
+ORIGINAL:
+Day 4 of posting this meme until @elonmusk delivers the first refreshed Model S &amp; X in Europe. ⚡️ #Tesla $TSLA #TeslaModelS #TeslaModelX  https://t.co/TELpNeOXJK
+
+GROUND TRUTH:
+Hashtags: ['#Tesla', '#TeslaModelS', '#TeslaModelX']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/TELpNeOXJK']
+Emojis: ['⚡']
+
+NLTK TWEET TOKENIZER:
+['Day', '4', 'of', 'posting', 'this', 'meme', 'until', '@elonmusk', 'delivers', 'the', 'first', 'refreshed', 'Model', 'S', '&', 'X', 'in', 'Europe', '.', '⚡', '️', '#Tesla', '$', 'TSLA', '#TeslaModelS', '#TeslaModelX', 'https://t.co/TELpNeOXJK']
+Token count: 27
+
+SPACY:
+['Day', '4', 'of', 'posting', 'this', 'meme', 'until', '@elonmusk', 'delivers', 'the', 'first', 'refreshed', 'Model', 'S', '&', 'amp', ';', 'X', 'in', 'Europe', '.', '⚡', '️', '#', 'Tesla', '$', 'TSLA', '#', 'TeslaModelS', '#', 'TeslaModelX', ' ', 'https://t.co/TELpNeOXJK']
+Token count: 33
+
+NLTK WORD TOKENIZE:
+['Day', '4', 'of', 'posting', 'this', 'meme', 'until', '@', 'elonmusk', 'delivers', 'the', 'first', 'refreshed', 'Model', 'S', '&', 'amp', ';', 'X', 'in', 'Europe', '.', '⚡️', '#', 'Tesla', '$', 'TSLA', '#', 'TeslaModelS', '#', 'TeslaModelX', 'https', ':', '//t.co/TELpNeOXJK']
+Token count: 34
+
+================================================================================
+POST 11
+================================================================================
+
+ORIGINAL:
+@elonmusk And say u wanna buy #twitter to be able to sell 8 billion worth of Tesla share and shove your losses in people’ hole… while you had no intention of buying it at first place. @elonmusk is a dangerous man❌
+
+GROUND TRUTH:
+Hashtags: ['#twitter']
+Mentions: ['@elonmusk', '@elonmusk']
+URLs: []
+Emojis: ['❌']
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', 'And', 'say', 'u', 'wanna', 'buy', '#twitter', 'to', 'be', 'able', 'to', 'sell', '8', 'billion', 'worth', 'of', 'Tesla', 'share', 'and', 'shove', 'your', 'losses', 'in', 'people', '’', 'hole', '…', 'while', 'you', 'had', 'no', 'intention', 'of', 'buying', 'it', 'at', 'first', 'place', '.', '@elonmusk', 'is', 'a', 'dangerous', 'man', '❌']
+Token count: 45
+
+SPACY:
+['@elonmusk', 'And', 'say', 'u', 'wanna', 'buy', '#', 'twitter', 'to', 'be', 'able', 'to', 'sell', '8', 'billion', 'worth', 'of', 'Tesla', 'share', 'and', 'shove', 'your', 'losses', 'in', 'people', '’', 'hole', '…', 'while', 'you', 'had', 'no', 'intention', 'of', 'buying', 'it', 'at', 'first', 'place', '.', '@elonmusk', 'is', 'a', 'dangerous', 'man', '❌']
+Token count: 46
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', 'And', 'say', 'u', 'wan', 'na', 'buy', '#', 'twitter', 'to', 'be', 'able', 'to', 'sell', '8', 'billion', 'worth', 'of', 'Tesla', 'share', 'and', 'shove', 'your', 'losses', 'in', 'people', '’', 'hole…', 'while', 'you', 'had', 'no', 'intention', 'of', 'buying', 'it', 'at', 'first', 'place', '.', '@', 'elonmusk', 'is', 'a', 'dangerous', 'man❌']
+Token count: 47
+
+================================================================================
+POST 12
+================================================================================
+
+ORIGINAL:
+This three wheeled solar #electric car charges on the go💡 🎥@IntEngineering #innovation #ElectricVehicles #solarcar #Car #energy #Tesla #ElonMusk #technology #innovationnews  https://t.co/drBh3hbtFb
+
+GROUND TRUTH:
+Hashtags: ['#electric', '#innovation', '#ElectricVehicles', '#solarcar', '#Car', '#energy', '#Tesla', '#ElonMusk', '#technology', '#innovationnews']
+Mentions: ['@IntEngineering']
+URLs: ['https://t.co/drBh3hbtFb']
+Emojis: ['💡', '🎥']
+
+NLTK TWEET TOKENIZER:
+['This', 'three', 'wheeled', 'solar', '#electric', 'car', 'charges', 'on', 'the', 'go', '💡', '🎥', '@IntEngineering', '#innovation', '#ElectricVehicles', '#solarcar', '#Car', '#energy', '#Tesla', '#ElonMusk', '#technology', '#innovationnews', 'https://t.co/drBh3hbtFb']
+Token count: 23
+
+SPACY:
+['This', 'three', 'wheeled', 'solar', '#', 'electric', 'car', 'charges', 'on', 'the', 'go', '💡', '🎥', '@IntEngineering', '#', 'innovation', '#', 'ElectricVehicles', '#', 'solarcar', '#', 'Car', '#', 'energy', '#', 'Tesla', '#', 'ElonMusk', '#', 'technology', '#', 'innovationnews', ' ', 'https://t.co/drBh3hbtFb']
+Token count: 34
+
+NLTK WORD TOKENIZE:
+['This', 'three', 'wheeled', 'solar', '#', 'electric', 'car', 'charges', 'on', 'the', 'go💡', '🎥', '@', 'IntEngineering', '#', 'innovation', '#', 'ElectricVehicles', '#', 'solarcar', '#', 'Car', '#', 'energy', '#', 'Tesla', '#', 'ElonMusk', '#', 'technology', '#', 'innovationnews', 'https', ':', '//t.co/drBh3hbtFb']
+Token count: 35
+
+================================================================================
+POST 13
+================================================================================
+
+ORIGINAL:
+Maybe they'll get a shot of @elonmusk 's space @Tesla he launched a while back!  👋👋👋👋👋  #JamesWebbSpaceTelescope #Biden #Musk #Space #SpaceX  https://t.co/4CW6WSdvuR
+
+GROUND TRUTH:
+Hashtags: ['#JamesWebbSpaceTelescope', '#Biden', '#Musk', '#Space', '#SpaceX']
+Mentions: ['@elonmusk', '@Tesla']
+URLs: ['https://t.co/4CW6WSdvuR']
+Emojis: ['👋', '👋', '👋', '👋', '👋']
+
+NLTK TWEET TOKENIZER:
+['Maybe', "they'll", 'get', 'a', 'shot', 'of', '@elonmusk', "'", 's', 'space', '@Tesla', 'he', 'launched', 'a', 'while', 'back', '!', '👋', '👋', '👋', '#JamesWebbSpaceTelescope', '#Biden', '#Musk', '#Space', '#SpaceX', 'https://t.co/4CW6WSdvuR']
+Token count: 26
+
+SPACY:
+['Maybe', 'they', "'ll", 'get', 'a', 'shot', 'of', '@elonmusk', "'s", 'space', '@Tesla', 'he', 'launched', 'a', 'while', 'back', '!', ' ', '👋', '👋', '👋', '👋', '👋', ' ', '#', 'JamesWebbSpaceTelescope', '#', 'Biden', '#', 'Musk', '#', 'Space', '#', 'SpaceX', ' ', 'https://t.co/4CW6WSdvuR']
+Token count: 36
+
+NLTK WORD TOKENIZE:
+['Maybe', 'they', "'ll", 'get', 'a', 'shot', 'of', '@', 'elonmusk', "'s", 'space', '@', 'Tesla', 'he', 'launched', 'a', 'while', 'back', '!', '👋👋👋👋👋', '#', 'JamesWebbSpaceTelescope', '#', 'Biden', '#', 'Musk', '#', 'Space', '#', 'SpaceX', 'https', ':', '//t.co/4CW6WSdvuR']
+Token count: 33
+
+================================================================================
+POST 14
+================================================================================
+
+ORIGINAL:
+$TSLA 1/1 woke up &amp; making 40% on a trade 🤣   Bang!   @retradez @MandoTrading @MikeTone_ @Ivan_Avalos8 @ShivamThanvi  #tesla #tessie #spy #spx #LoveIsland  https://t.co/EjevsTQ9DX
+
+GROUND TRUTH:
+Hashtags: ['#tesla', '#tessie', '#spy', '#spx', '#LoveIsland']
+Mentions: ['@retradez', '@MandoTrading', '@MikeTone_', '@Ivan_Avalos8', '@ShivamThanvi']
+URLs: ['https://t.co/EjevsTQ9DX']
+Emojis: ['🤣']
+
+NLTK TWEET TOKENIZER:
+['$', 'TSLA', '1/1', 'woke', 'up', '&', 'making', '40', '%', 'on', 'a', 'trade', '🤣', 'Bang', '!', '@retradez', '@MandoTrading', '@MikeTone_', '@Ivan_Avalos8', '@ShivamThanvi', '#tesla', '#tessie', '#spy', '#spx', '#LoveIsland', 'https://t.co/EjevsTQ9DX']
+Token count: 26
+
+SPACY:
+['$', 'TSLA', '1/1', 'woke', 'up', '&', 'amp', ';', 'making', '40', '%', 'on', 'a', 'trade', '🤣', '  ', 'Bang', '!', '  ', '@retradez', '@MandoTrading', '@MikeTone', '_', '@Ivan_Avalos8', '@ShivamThanvi', ' ', '#', 'tesla', '#', 'tessie', '#', 'spy', '#', 'spx', '#', 'LoveIsland', ' ', 'https://t.co/EjevsTQ9DX']
+Token count: 38
+
+NLTK WORD TOKENIZE:
+['$', 'TSLA', '1/1', 'woke', 'up', '&', 'amp', ';', 'making', '40', '%', 'on', 'a', 'trade', '🤣', 'Bang', '!', '@', 'retradez', '@', 'MandoTrading', '@', 'MikeTone_', '@', 'Ivan_Avalos8', '@', 'ShivamThanvi', '#', 'tesla', '#', 'tessie', '#', 'spy', '#', 'spx', '#', 'LoveIsland', 'https', ':', '//t.co/EjevsTQ9DX']
+Token count: 40
+
+================================================================================
+POST 15
+================================================================================
+
+ORIGINAL:
+All Youngsters Role model 🤩  He is The Biggest Businessman &amp; Richest man In World  Our Name is The CEO of Tesla Motors &amp; SpaceX @elonmusk  #ElonMusk #Tesla #SpaceX #BusinessMan #Richestman  https://t.co/p375ycTqnG
+
+GROUND TRUTH:
+Hashtags: ['#ElonMusk', '#Tesla', '#SpaceX', '#BusinessMan', '#Richestman']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/p375ycTqnG']
+Emojis: ['🤩']
+
+NLTK TWEET TOKENIZER:
+['All', 'Youngsters', 'Role', 'model', '🤩', 'He', 'is', 'The', 'Biggest', 'Businessman', '&', 'Richest', 'man', 'In', 'World', 'Our', 'Name', 'is', 'The', 'CEO', 'of', 'Tesla', 'Motors', '&', 'SpaceX', '@elonmusk', '#ElonMusk', '#Tesla', '#SpaceX', '#BusinessMan', '#Richestman', 'https://t.co/p375ycTqnG']
+Token count: 32
+
+SPACY:
+['All', 'Youngsters', 'Role', 'model', '🤩', ' ', 'He', 'is', 'The', 'Biggest', 'Businessman', '&', 'amp', ';', 'Richest', 'man', 'In', 'World', ' ', 'Our', 'Name', 'is', 'The', 'CEO', 'of', 'Tesla', 'Motors', '&', 'amp', ';', 'SpaceX', '@elonmusk', ' ', '#', 'ElonMusk', '#', 'Tesla', '#', 'SpaceX', '#', 'BusinessMan', '#', 'Richestman', ' ', 'https://t.co/p375ycTqnG']
+Token count: 45
+
+NLTK WORD TOKENIZE:
+['All', 'Youngsters', 'Role', 'model', '🤩', 'He', 'is', 'The', 'Biggest', 'Businessman', '&', 'amp', ';', 'Richest', 'man', 'In', 'World', 'Our', 'Name', 'is', 'The', 'CEO', 'of', 'Tesla', 'Motors', '&', 'amp', ';', 'SpaceX', '@', 'elonmusk', '#', 'ElonMusk', '#', 'Tesla', '#', 'SpaceX', '#', 'BusinessMan', '#', 'Richestman', 'https', ':', '//t.co/p375ycTqnG']
+Token count: 44
+
+================================================================================
+POST 16
+================================================================================
+
+ORIGINAL:
+@CurrentRevolt An Amish lifestyle...lol. No word on not charging your Tesla &amp; riding horse and carriage,but hand wash your dishes.🙄 As a former Californian,they sent these warnings to us too. These are 🚩🚩of what's to come to Texas . PS,there's  almost no wind energy being produced rn either.  https://t.co/G6HJI0JDlr
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@CurrentRevolt']
+URLs: ['https://t.co/G6HJI0JDlr']
+Emojis: ['🙄', '🚩', '🚩']
+
+NLTK TWEET TOKENIZER:
+['@CurrentRevolt', 'An', 'Amish', 'lifestyle', '...', 'lol', '.', 'No', 'word', 'on', 'not', 'charging', 'your', 'Tesla', '&', 'riding', 'horse', 'and', 'carriage', ',', 'but', 'hand', 'wash', 'your', 'dishes', '.', '🙄', 'As', 'a', 'former', 'Californian', ',', 'they', 'sent', 'these', 'warnings', 'to', 'us', 'too', '.', 'These', 'are', '🚩', '🚩', 'of', "what's", 'to', 'come', 'to', 'Texas', '.', 'PS', ',', "there's", 'almost', 'no', 'wind', 'energy', 'being', 'produced', 'rn', 'either', '.', 'https://t.co/G6HJI0JDlr']
+Token count: 64
+
+SPACY:
+['@CurrentRevolt', 'An', 'Amish', 'lifestyle', '...', 'lol', '.', 'No', 'word', 'on', 'not', 'charging', 'your', 'Tesla', '&', 'amp', ';', 'riding', 'horse', 'and', 'carriage', ',', 'but', 'hand', 'wash', 'your', 'dishes', '.', '🙄', 'As', 'a', 'former', 'Californian', ',', 'they', 'sent', 'these', 'warnings', 'to', 'us', 'too', '.', 'These', 'are', '🚩', '🚩', 'of', 'what', "'s", 'to', 'come', 'to', 'Texas', '.', 'PS', ',', 'there', "'s", ' ', 'almost', 'no', 'wind', 'energy', 'being', 'produced', 'rn', 'either', '.', ' ', 'https://t.co/G6HJI0JDlr']
+Token count: 70
+
+NLTK WORD TOKENIZE:
+['@', 'CurrentRevolt', 'An', 'Amish', 'lifestyle', '...', 'lol', '.', 'No', 'word', 'on', 'not', 'charging', 'your', 'Tesla', '&', 'amp', ';', 'riding', 'horse', 'and', 'carriage', ',', 'but', 'hand', 'wash', 'your', 'dishes.🙄', 'As', 'a', 'former', 'Californian', ',', 'they', 'sent', 'these', 'warnings', 'to', 'us', 'too', '.', 'These', 'are', '🚩🚩of', 'what', "'s", 'to', 'come', 'to', 'Texas', '.', 'PS', ',', 'there', "'s", 'almost', 'no', 'wind', 'energy', 'being', 'produced', 'rn', 'either', '.', 'https', ':', '//t.co/G6HJI0JDlr']
+Token count: 67
+
+================================================================================
+POST 17
+================================================================================
+
+ORIGINAL:
+Yesterday's Shoot (My 1st Tesla Shoot)  📸🎥 @redlinesproject   https://t.co/djJchmJF2p Owner: B Car: @Tesla  #Tesla #Model3 #TeslaModel3 #electric #cars #red #sundayvibes #sunset #photoshoot #behindthescenes #bts #cars #rt #turo #business #tech #goodmorning  https://t.co/3bLPilCFdR
+
+GROUND TRUTH:
+Hashtags: ['#Tesla', '#Model3', '#TeslaModel3', '#electric', '#cars', '#red', '#sundayvibes', '#sunset', '#photoshoot', '#behindthescenes', '#bts', '#cars', '#rt', '#turo', '#business', '#tech', '#goodmorning']
+Mentions: ['@redlinesproject', '@Tesla']
+URLs: ['https://t.co/djJchmJF2p', 'https://t.co/3bLPilCFdR']
+Emojis: ['📸', '🎥']
+
+NLTK TWEET TOKENIZER:
+["Yesterday's", 'Shoot', '(', 'My', '1st', 'Tesla', 'Shoot', ')', '📸', '🎥', '@redlinesproject', 'https://t.co/djJchmJF2p', 'Owner', ':', 'B', 'Car', ':', '@Tesla', '#Tesla', '#Model3', '#TeslaModel3', '#electric', '#cars', '#red', '#sundayvibes', '#sunset', '#photoshoot', '#behindthescenes', '#bts', '#cars', '#rt', '#turo', '#business', '#tech', '#goodmorning', 'https://t.co/3bLPilCFdR']
+Token count: 36
+
+SPACY:
+['Yesterday', "'s", 'Shoot', '(', 'My', '1st', 'Tesla', 'Shoot', ')', ' ', '📸', '🎥', '@redlinesproject', '  ', 'https://t.co/djJchmJF2p', 'Owner', ':', 'B', 'Car', ':', '@Tesla', ' ', '#', 'Tesla', '#', 'Model3', '#', 'TeslaModel3', '#', 'electric', '#', 'cars', '#', 'red', '#', 'sundayvibes', '#', 'sunset', '#', 'photoshoot', '#', 'behindthescenes', '#', 'bts', '#', 'cars', '#', 'rt', '#', 'turo', '#', 'business', '#', 'tech', '#', 'goodmorning', ' ', 'https://t.co/3bLPilCFdR']
+Token count: 58
+
+NLTK WORD TOKENIZE:
+['Yesterday', "'s", 'Shoot', '(', 'My', '1st', 'Tesla', 'Shoot', ')', '📸🎥', '@', 'redlinesproject', 'https', ':', '//t.co/djJchmJF2p', 'Owner', ':', 'B', 'Car', ':', '@', 'Tesla', '#', 'Tesla', '#', 'Model3', '#', 'TeslaModel3', '#', 'electric', '#', 'cars', '#', 'red', '#', 'sundayvibes', '#', 'sunset', '#', 'photoshoot', '#', 'behindthescenes', '#', 'bts', '#', 'cars', '#', 'rt', '#', 'turo', '#', 'business', '#', 'tech', '#', 'goodmorning', 'https', ':', '//t.co/3bLPilCFdR']
+Token count: 59
+
+================================================================================
+POST 18
+================================================================================
+
+ORIGINAL:
+@SawyerMerritt People mad at Elon for [insert FUD]: “I’m never gonna buy a Tesla and instead will pay 10x more for a way worse product” 🙄 ok buddy  https://t.co/9aNMZ2Q9Vj
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@SawyerMerritt']
+URLs: ['https://t.co/9aNMZ2Q9Vj']
+Emojis: ['🙄']
+
+NLTK TWEET TOKENIZER:
+['@SawyerMerritt', 'People', 'mad', 'at', 'Elon', 'for', '[', 'insert', 'FUD', ']:', '“', 'I', '’', 'm', 'never', 'gonna', 'buy', 'a', 'Tesla', 'and', 'instead', 'will', 'pay', '10x', 'more', 'for', 'a', 'way', 'worse', 'product', '”', '🙄', 'ok', 'buddy', 'https://t.co/9aNMZ2Q9Vj']
+Token count: 35
+
+SPACY:
+['@SawyerMerritt', 'People', 'mad', 'at', 'Elon', 'for', '[', 'insert', 'FUD', ']', ':', '“', 'I', '’m', 'never', 'gon', 'na', 'buy', 'a', 'Tesla', 'and', 'instead', 'will', 'pay', '10x', 'more', 'for', 'a', 'way', 'worse', 'product', '”', '🙄', 'ok', 'buddy', ' ', 'https://t.co/9aNMZ2Q9Vj']
+Token count: 37
+
+NLTK WORD TOKENIZE:
+['@', 'SawyerMerritt', 'People', 'mad', 'at', 'Elon', 'for', '[', 'insert', 'FUD', ']', ':', '“', 'I', '’', 'm', 'never', 'gon', 'na', 'buy', 'a', 'Tesla', 'and', 'instead', 'will', 'pay', '10x', 'more', 'for', 'a', 'way', 'worse', 'product', '”', '🙄', 'ok', 'buddy', 'https', ':', '//t.co/9aNMZ2Q9Vj']
+Token count: 40
+
+================================================================================
+POST 19
+================================================================================
+
+ORIGINAL:
+So funny thing about this guy - he picked me up in Scottsdale in a #Uber and we start talking about ⁦@elonmusk⁩ and ⁦@DogelonMars⁩ and #investing in he pulls out his phone shows me his #tesla stocks he has millions of dollars in Tesla and is #hodling for way more 💎👏  https://t.co/fGmEUekn1Z
+
+GROUND TRUTH:
+Hashtags: ['#Uber', '#investing', '#tesla', '#hodling']
+Mentions: ['@elonmusk', '@DogelonMars']
+URLs: ['https://t.co/fGmEUekn1Z']
+Emojis: ['💎', '👏']
+
+NLTK TWEET TOKENIZER:
+['So', 'funny', 'thing', 'about', 'this', 'guy', '-', 'he', 'picked', 'me', 'up', 'in', 'Scottsdale', 'in', 'a', '#Uber', 'and', 'we', 'start', 'talking', 'about', '\u2066', '@elonmusk', '\u2069', 'and', '\u2066', '@DogelonMars', '\u2069', 'and', '#investing', 'in', 'he', 'pulls', 'out', 'his', 'phone', 'shows', 'me', 'his', '#tesla', 'stocks', 'he', 'has', 'millions', 'of', 'dollars', 'in', 'Tesla', 'and', 'is', '#hodling', 'for', 'way', 'more', '💎', '👏', 'https://t.co/fGmEUekn1Z']
+Token count: 57
+
+SPACY:
+['So', 'funny', 'thing', 'about', 'this', 'guy', '-', 'he', 'picked', 'me', 'up', 'in', 'Scottsdale', 'in', 'a', '#', 'Uber', 'and', 'we', 'start', 'talking', 'about', '\u2066@elonmusk\u2069', 'and', '\u2066@DogelonMars\u2069', 'and', '#', 'investing', 'in', 'he', 'pulls', 'out', 'his', 'phone', 'shows', 'me', 'his', '#', 'tesla', 'stocks', 'he', 'has', 'millions', 'of', 'dollars', 'in', 'Tesla', 'and', 'is', '#', 'hodling', 'for', 'way', 'more', '💎', '👏', ' ', 'https://t.co/fGmEUekn1Z']
+Token count: 58
+
+NLTK WORD TOKENIZE:
+['So', 'funny', 'thing', 'about', 'this', 'guy', '-', 'he', 'picked', 'me', 'up', 'in', 'Scottsdale', 'in', 'a', '#', 'Uber', 'and', 'we', 'start', 'talking', 'about', '\u2066', '@', 'elonmusk\u2069', 'and', '\u2066', '@', 'DogelonMars\u2069', 'and', '#', 'investing', 'in', 'he', 'pulls', 'out', 'his', 'phone', 'shows', 'me', 'his', '#', 'tesla', 'stocks', 'he', 'has', 'millions', 'of', 'dollars', 'in', 'Tesla', 'and', 'is', '#', 'hodling', 'for', 'way', 'more', '💎👏', 'https', ':', '//t.co/fGmEUekn1Z']
+Token count: 62
+
+================================================================================
+POST 20
+================================================================================
+
+ORIGINAL:
+"American Farm Truck"  Painted on a random used cigar box😀  #Tesla #ElonMusk #cybertruck #art #illustration  @elonmusk  https://t.co/fsm7GCdeEF
+
+GROUND TRUTH:
+Hashtags: ['#Tesla', '#ElonMusk', '#cybertruck', '#art', '#illustration']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/fsm7GCdeEF']
+Emojis: ['😀']
+
+NLTK TWEET TOKENIZER:
+['"', 'American', 'Farm', 'Truck', '"', 'Painted', 'on', 'a', 'random', 'used', 'cigar', 'box', '😀', '#Tesla', '#ElonMusk', '#cybertruck', '#art', '#illustration', '@elonmusk', 'https://t.co/fsm7GCdeEF']
+Token count: 20
+
+SPACY:
+['"', 'American', 'Farm', 'Truck', '"', ' ', 'Painted', 'on', 'a', 'random', 'used', 'cigar', 'box', '😀', ' ', '#', 'Tesla', '#', 'ElonMusk', '#', 'cybertruck', '#', 'art', '#', 'illustration', ' ', '@elonmusk', ' ', 'https://t.co/fsm7GCdeEF']
+Token count: 29
+
+NLTK WORD TOKENIZE:
+['``', 'American', 'Farm', 'Truck', "''", 'Painted', 'on', 'a', 'random', 'used', 'cigar', 'box😀', '#', 'Tesla', '#', 'ElonMusk', '#', 'cybertruck', '#', 'art', '#', 'illustration', '@', 'elonmusk', 'https', ':', '//t.co/fsm7GCdeEF']
+Token count: 27
+
+================================================================================
+POST 21
+================================================================================
+
+ORIGINAL:
+Retweet selected by the  https://t.co/11ojAZA3Wf team |  Tesla's U.S. factory to stay open as coronavirus lockdown begins: report #technology  https://t.co/JO1tCX99ma  https://t.co/VRWbg8ZCWR
+
+GROUND TRUTH:
+Hashtags: ['#technology']
+Mentions: []
+URLs: ['https://t.co/11ojAZA3Wf', 'https://t.co/JO1tCX99ma', 'https://t.co/VRWbg8ZCWR']
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['Retweet', 'selected', 'by', 'the', 'https://t.co/11ojAZA3Wf', 'team', '|', "Tesla's", 'U', '.', 'S', '.', 'factory', 'to', 'stay', 'open', 'as', 'coronavirus', 'lockdown', 'begins', ':', 'report', '#technology', 'https://t.co/JO1tCX99ma', 'https://t.co/VRWbg8ZCWR']
+Token count: 25
+
+SPACY:
+['Retweet', 'selected', 'by', 'the', ' ', 'https://t.co/11ojAZA3Wf', 'team', '|', ' ', 'Tesla', "'s", 'U.S.', 'factory', 'to', 'stay', 'open', 'as', 'coronavirus', 'lockdown', 'begins', ':', 'report', '#', 'technology', ' ', 'https://t.co/JO1tCX99ma', ' ', 'https://t.co/VRWbg8ZCWR']
+Token count: 28
+
+NLTK WORD TOKENIZE:
+['Retweet', 'selected', 'by', 'the', 'https', ':', '//t.co/11ojAZA3Wf', 'team', '|', 'Tesla', "'s", 'U.S.', 'factory', 'to', 'stay', 'open', 'as', 'coronavirus', 'lockdown', 'begins', ':', 'report', '#', 'technology', 'https', ':', '//t.co/JO1tCX99ma', 'https', ':', '//t.co/VRWbg8ZCWR']
+Token count: 30
+
+================================================================================
+POST 22
+================================================================================
+
+ORIGINAL:
+In the coming future, #Tesla is gonna face some real competition from the Indian market, unless they #MakeInIndia. Kudos to #olaelectric for their amazing work.
+
+GROUND TRUTH:
+Hashtags: ['#Tesla', '#MakeInIndia', '#olaelectric']
+Mentions: []
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['In', 'the', 'coming', 'future', ',', '#Tesla', 'is', 'gonna', 'face', 'some', 'real', 'competition', 'from', 'the', 'Indian', 'market', ',', 'unless', 'they', '#MakeInIndia', '.', 'Kudos', 'to', '#olaelectric', 'for', 'their', 'amazing', 'work', '.']
+Token count: 29
+
+SPACY:
+['In', 'the', 'coming', 'future', ',', '#', 'Tesla', 'is', 'gon', 'na', 'face', 'some', 'real', 'competition', 'from', 'the', 'Indian', 'market', ',', 'unless', 'they', '#', 'MakeInIndia', '.', 'Kudos', 'to', '#', 'olaelectric', 'for', 'their', 'amazing', 'work', '.']
+Token count: 33
+
+NLTK WORD TOKENIZE:
+['In', 'the', 'coming', 'future', ',', '#', 'Tesla', 'is', 'gon', 'na', 'face', 'some', 'real', 'competition', 'from', 'the', 'Indian', 'market', ',', 'unless', 'they', '#', 'MakeInIndia', '.', 'Kudos', 'to', '#', 'olaelectric', 'for', 'their', 'amazing', 'work', '.']
+Token count: 33
+
+================================================================================
+POST 23
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom #Dogecoin is essential to the future because there is close to no way two countries who use it as legal tender would ever bomb each other. Buying nukes with that cute little face? Nah, use it for love instead :)
+
+GROUND TRUTH:
+Hashtags: ['#Dogecoin']
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', '#Dogecoin', 'is', 'essential', 'to', 'the', 'future', 'because', 'there', 'is', 'close', 'to', 'no', 'way', 'two', 'countries', 'who', 'use', 'it', 'as', 'legal', 'tender', 'would', 'ever', 'bomb', 'each', 'other', '.', 'Buying', 'nukes', 'with', 'that', 'cute', 'little', 'face', '?', 'Nah', ',', 'use', 'it', 'for', 'love', 'instead', ':)']
+Token count: 54
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', '#', 'Dogecoin', 'is', 'essential', 'to', 'the', 'future', 'because', 'there', 'is', 'close', 'to', 'no', 'way', 'two', 'countries', 'who', 'use', 'it', 'as', 'legal', 'tender', 'would', 'ever', 'bomb', 'each', 'other', '.', 'Buying', 'nukes', 'with', 'that', 'cute', 'little', 'face', '?', 'Nah', ',', 'use', 'it', 'for', 'love', 'instead', ':)']
+Token count: 55
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', '#', 'Dogecoin', 'is', 'essential', 'to', 'the', 'future', 'because', 'there', 'is', 'close', 'to', 'no', 'way', 'two', 'countries', 'who', 'use', 'it', 'as', 'legal', 'tender', 'would', 'ever', 'bomb', 'each', 'other', '.', 'Buying', 'nukes', 'with', 'that', 'cute', 'little', 'face', '?', 'Nah', ',', 'use', 'it', 'for', 'love', 'instead', ':', ')']
+Token count: 67
+
+================================================================================
+POST 24
+================================================================================
+
+ORIGINAL:
+@TD_Tesla Not all countries are gonna go for #BTC anyways, so not all 7-8b ppl will have crypto. Just like not all countries go for #USD now. The countries that will hold #BTC back will want to control their people with fiat currencies with inflationary environments.
+
+GROUND TRUTH:
+Hashtags: ['#BTC', '#USD', '#BTC']
+Mentions: ['@TD_Tesla']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@TD_Tesla', 'Not', 'all', 'countries', 'are', 'gonna', 'go', 'for', '#BTC', 'anyways', ',', 'so', 'not', 'all', '7-8', 'b', 'ppl', 'will', 'have', 'crypto', '.', 'Just', 'like', 'not', 'all', 'countries', 'go', 'for', '#USD', 'now', '.', 'The', 'countries', 'that', 'will', 'hold', '#BTC', 'back', 'will', 'want', 'to', 'control', 'their', 'people', 'with', 'fiat', 'currencies', 'with', 'inflationary', 'environments', '.']
+Token count: 51
+
+SPACY:
+['@TD_Tesla', 'Not', 'all', 'countries', 'are', 'gon', 'na', 'go', 'for', '#', 'BTC', 'anyways', ',', 'so', 'not', 'all', '7', '-', '8b', 'ppl', 'will', 'have', 'crypto', '.', 'Just', 'like', 'not', 'all', 'countries', 'go', 'for', '#', 'USD', 'now', '.', 'The', 'countries', 'that', 'will', 'hold', '#', 'BTC', 'back', 'will', 'want', 'to', 'control', 'their', 'people', 'with', 'fiat', 'currencies', 'with', 'inflationary', 'environments', '.']
+Token count: 56
+
+NLTK WORD TOKENIZE:
+['@', 'TD_Tesla', 'Not', 'all', 'countries', 'are', 'gon', 'na', 'go', 'for', '#', 'BTC', 'anyways', ',', 'so', 'not', 'all', '7-8b', 'ppl', 'will', 'have', 'crypto', '.', 'Just', 'like', 'not', 'all', 'countries', 'go', 'for', '#', 'USD', 'now', '.', 'The', 'countries', 'that', 'will', 'hold', '#', 'BTC', 'back', 'will', 'want', 'to', 'control', 'their', 'people', 'with', 'fiat', 'currencies', 'with', 'inflationary', 'environments', '.']
+Token count: 55
+
+================================================================================
+POST 25
+================================================================================
+
+ORIGINAL:
+@abeerong Like tesla or a audi u got futuristic body
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@abeerong']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@abeerong', 'Like', 'tesla', 'or', 'a', 'audi', 'u', 'got', 'futuristic', 'body']
+Token count: 10
+
+SPACY:
+['@abeerong', 'Like', 'tesla', 'or', 'a', 'audi', 'u', 'got', 'futuristic', 'body']
+Token count: 10
+
+NLTK WORD TOKENIZE:
+['@', 'abeerong', 'Like', 'tesla', 'or', 'a', 'audi', 'u', 'got', 'futuristic', 'body']
+Token count: 11
+
+================================================================================
+POST 26
+================================================================================
+
+ORIGINAL:
+@elonmusk I don’t know how to play chess, but this this pretty funny. Also Elon, I’m gonna get a Tesla someday.
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', 'I', 'don', '’', 't', 'know', 'how', 'to', 'play', 'chess', ',', 'but', 'this', 'this', 'pretty', 'funny', '.', 'Also', 'Elon', ',', 'I', '’', 'm', 'gonna', 'get', 'a', 'Tesla', 'someday', '.']
+Token count: 29
+
+SPACY:
+['@elonmusk', 'I', 'do', 'n’t', 'know', 'how', 'to', 'play', 'chess', ',', 'but', 'this', 'this', 'pretty', 'funny', '.', 'Also', 'Elon', ',', 'I', '’m', 'gon', 'na', 'get', 'a', 'Tesla', 'someday', '.']
+Token count: 28
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', 'I', 'don', '’', 't', 'know', 'how', 'to', 'play', 'chess', ',', 'but', 'this', 'this', 'pretty', 'funny', '.', 'Also', 'Elon', ',', 'I', '’', 'm', 'gon', 'na', 'get', 'a', 'Tesla', 'someday', '.']
+Token count: 31
+
+================================================================================
+POST 27
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Nah, i am gonna pass
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Nah', ',', 'i', 'am', 'gonna', 'pass']
+Token count: 17
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Nah', ',', 'i', 'am', 'gon', 'na', 'pass']
+Token count: 18
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Nah', ',', 'i', 'am', 'gon', 'na', 'pass']
+Token count: 29
+
+================================================================================
+POST 28
+================================================================================
+
+ORIGINAL:
+@elonmusk You were never gonna buy Twitter anyway because you can't afford it and didn't believe in free speech in the first place, you just wanted to buy it to bring your daddy trump back. Tesla sucks just like you
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', 'You', 'were', 'never', 'gonna', 'buy', 'Twitter', 'anyway', 'because', 'you', "can't", 'afford', 'it', 'and', "didn't", 'believe', 'in', 'free', 'speech', 'in', 'the', 'first', 'place', ',', 'you', 'just', 'wanted', 'to', 'buy', 'it', 'to', 'bring', 'your', 'daddy', 'trump', 'back', '.', 'Tesla', 'sucks', 'just', 'like', 'you']
+Token count: 42
+
+SPACY:
+['@elonmusk', 'You', 'were', 'never', 'gon', 'na', 'buy', 'Twitter', 'anyway', 'because', 'you', 'ca', "n't", 'afford', 'it', 'and', 'did', "n't", 'believe', 'in', 'free', 'speech', 'in', 'the', 'first', 'place', ',', 'you', 'just', 'wanted', 'to', 'buy', 'it', 'to', 'bring', 'your', 'daddy', 'trump', 'back', '.', 'Tesla', 'sucks', 'just', 'like', 'you']
+Token count: 45
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', 'You', 'were', 'never', 'gon', 'na', 'buy', 'Twitter', 'anyway', 'because', 'you', 'ca', "n't", 'afford', 'it', 'and', 'did', "n't", 'believe', 'in', 'free', 'speech', 'in', 'the', 'first', 'place', ',', 'you', 'just', 'wanted', 'to', 'buy', 'it', 'to', 'bring', 'your', 'daddy', 'trump', 'back', '.', 'Tesla', 'sucks', 'just', 'like', 'you']
+Token count: 46
+
+================================================================================
+POST 29
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Lol In Nigeria here We are overpopulated for the type of infrastructure we have
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Lol', 'In', 'Nigeria', 'here', 'We', 'are', 'overpopulated', 'for', 'the', 'type', 'of', 'infrastructure', 'we', 'have']
+Token count: 25
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Lol', 'In', 'Nigeria', 'here', 'We', 'are', 'overpopulated', 'for', 'the', 'type', 'of', 'infrastructure', 'we', 'have']
+Token count: 25
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Lol', 'In', 'Nigeria', 'here', 'We', 'are', 'overpopulated', 'for', 'the', 'type', 'of', 'infrastructure', 'we', 'have']
+Token count: 36
+
+================================================================================
+POST 30
+================================================================================
+
+ORIGINAL:
+@iamraisini @elonmusk Imma assume you shorted Tesla ? Lol
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@iamraisini', '@elonmusk']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@iamraisini', '@elonmusk', 'Imma', 'assume', 'you', 'shorted', 'Tesla', '?', 'Lol']
+Token count: 9
+
+SPACY:
+['@iamraisini', '@elonmusk', 'Imma', 'assume', 'you', 'shorted', 'Tesla', '?', 'Lol']
+Token count: 9
+
+NLTK WORD TOKENIZE:
+['@', 'iamraisini', '@', 'elonmusk', 'Imma', 'assume', 'you', 'shorted', 'Tesla', '?', 'Lol']
+Token count: 11
+
+================================================================================
+POST 31
+================================================================================
+
+ORIGINAL:
+@unusual_whales @ERCOT_ISO I'm going to charge my Tesla, dry my clothes, wash my dishes, lower my AC temp, turn on every light, and play games on three different computers all at the same time.  Ya'll want to charge an arm and a leg for electricity and fix nothing.  Im gonna use what I pay for.
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@unusual_whales', '@ERCOT_ISO']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@unusual_whales', '@ERCOT_ISO', "I'm", 'going', 'to', 'charge', 'my', 'Tesla', ',', 'dry', 'my', 'clothes', ',', 'wash', 'my', 'dishes', ',', 'lower', 'my', 'AC', 'temp', ',', 'turn', 'on', 'every', 'light', ',', 'and', 'play', 'games', 'on', 'three', 'different', 'computers', 'all', 'at', 'the', 'same', 'time', '.', "Ya'll", 'want', 'to', 'charge', 'an', 'arm', 'and', 'a', 'leg', 'for', 'electricity', 'and', 'fix', 'nothing', '.', 'Im', 'gonna', 'use', 'what', 'I', 'pay', 'for', '.']
+Token count: 63
+
+SPACY:
+['@unusual_whales', '@ERCOT_ISO', 'I', "'m", 'going', 'to', 'charge', 'my', 'Tesla', ',', 'dry', 'my', 'clothes', ',', 'wash', 'my', 'dishes', ',', 'lower', 'my', 'AC', 'temp', ',', 'turn', 'on', 'every', 'light', ',', 'and', 'play', 'games', 'on', 'three', 'different', 'computers', 'all', 'at', 'the', 'same', 'time', '.', ' ', "Ya'll", 'want', 'to', 'charge', 'an', 'arm', 'and', 'a', 'leg', 'for', 'electricity', 'and', 'fix', 'nothing', '.', ' ', 'I', 'm', 'gon', 'na', 'use', 'what', 'I', 'pay', 'for', '.']
+Token count: 68
+
+NLTK WORD TOKENIZE:
+['@', 'unusual_whales', '@', 'ERCOT_ISO', 'I', "'m", 'going', 'to', 'charge', 'my', 'Tesla', ',', 'dry', 'my', 'clothes', ',', 'wash', 'my', 'dishes', ',', 'lower', 'my', 'AC', 'temp', ',', 'turn', 'on', 'every', 'light', ',', 'and', 'play', 'games', 'on', 'three', 'different', 'computers', 'all', 'at', 'the', 'same', 'time', '.', 'Ya', "'ll", 'want', 'to', 'charge', 'an', 'arm', 'and', 'a', 'leg', 'for', 'electricity', 'and', 'fix', 'nothing', '.', 'Im', 'gon', 'na', 'use', 'what', 'I', 'pay', 'for', '.']
+Token count: 68
+
+================================================================================
+POST 32
+================================================================================
+
+ORIGINAL:
+@iamgabesanchez @elonmusk Odds that court discovers some questionable buying of Twitter just before his announcement, some sales at peak price and some shorts just before he made the first bot comments? This is gonna be Elon v Taking Tesla Private with secured Saudi funds v2.0.
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@iamgabesanchez', '@elonmusk']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@iamgabesanchez', '@elonmusk', 'Odds', 'that', 'court', 'discovers', 'some', 'questionable', 'buying', 'of', 'Twitter', 'just', 'before', 'his', 'announcement', ',', 'some', 'sales', 'at', 'peak', 'price', 'and', 'some', 'shorts', 'just', 'before', 'he', 'made', 'the', 'first', 'bot', 'comments', '?', 'This', 'is', 'gonna', 'be', 'Elon', 'v', 'Taking', 'Tesla', 'Private', 'with', 'secured', 'Saudi', 'funds', 'v2', '.', '0', '.']
+Token count: 50
+
+SPACY:
+['@iamgabesanchez', '@elonmusk', 'Odds', 'that', 'court', 'discovers', 'some', 'questionable', 'buying', 'of', 'Twitter', 'just', 'before', 'his', 'announcement', ',', 'some', 'sales', 'at', 'peak', 'price', 'and', 'some', 'shorts', 'just', 'before', 'he', 'made', 'the', 'first', 'bot', 'comments', '?', 'This', 'is', 'gon', 'na', 'be', 'Elon', 'v', 'Taking', 'Tesla', 'Private', 'with', 'secured', 'Saudi', 'funds', 'v2.0', '.']
+Token count: 49
+
+NLTK WORD TOKENIZE:
+['@', 'iamgabesanchez', '@', 'elonmusk', 'Odds', 'that', 'court', 'discovers', 'some', 'questionable', 'buying', 'of', 'Twitter', 'just', 'before', 'his', 'announcement', ',', 'some', 'sales', 'at', 'peak', 'price', 'and', 'some', 'shorts', 'just', 'before', 'he', 'made', 'the', 'first', 'bot', 'comments', '?', 'This', 'is', 'gon', 'na', 'be', 'Elon', 'v', 'Taking', 'Tesla', 'Private', 'with', 'secured', 'Saudi', 'funds', 'v2.0', '.']
+Token count: 51
+
+================================================================================
+POST 33
+================================================================================
+
+ORIGINAL:
+@GailAlfarATX @elonmusk @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom I have six. 4 of them still live at home being homeschooled -taught self-education , research. Beyond public education. This nation has pushed society in the wrong direction. Change time
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@GailAlfarATX', '@elonmusk', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@GailAlfarATX', '@elonmusk', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'I', 'have', 'six', '.', '4', 'of', 'them', 'still', 'live', 'at', 'home', 'being', 'homeschooled', '-', 'taught', 'self-education', ',', 'research', '.', 'Beyond', 'public', 'education', '.', 'This', 'nation', 'has', 'pushed', 'society', 'in', 'the', 'wrong', 'direction', '.', 'Change', 'time']
+Token count: 46
+
+SPACY:
+['@GailAlfarATX', '@elonmusk', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'I', 'have', 'six', '.', '4', 'of', 'them', 'still', 'live', 'at', 'home', 'being', 'homeschooled', '-taught', 'self', '-', 'education', ',', 'research', '.', 'Beyond', 'public', 'education', '.', 'This', 'nation', 'has', 'pushed', 'society', 'in', 'the', 'wrong', 'direction', '.', 'Change', 'time']
+Token count: 47
+
+NLTK WORD TOKENIZE:
+['@', 'GailAlfarATX', '@', 'elonmusk', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'I', 'have', 'six', '.', '4', 'of', 'them', 'still', 'live', 'at', 'home', 'being', 'homeschooled', '-taught', 'self-education', ',', 'research', '.', 'Beyond', 'public', 'education', '.', 'This', 'nation', 'has', 'pushed', 'society', 'in', 'the', 'wrong', 'direction', '.', 'Change', 'time']
+Token count: 56
+
+================================================================================
+POST 34
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Then go for your dozen kids… you are just missing 3 more!!! Go for it!!
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Then', 'go', 'for', 'your', 'dozen', 'kids', '…', 'you', 'are', 'just', 'missing', '3', 'more', '!', '!', '!', 'Go', 'for', 'it', '!', '!']
+Token count: 32
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Then', 'go', 'for', 'your', 'dozen', 'kids', '…', 'you', 'are', 'just', 'missing', '3', 'more', '!', '!', '!', 'Go', 'for', 'it', '!', '!']
+Token count: 32
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Then', 'go', 'for', 'your', 'dozen', 'kids…', 'you', 'are', 'just', 'missing', '3', 'more', '!', '!', '!', 'Go', 'for', 'it', '!', '!']
+Token count: 42
+
+================================================================================
+POST 35
+================================================================================
+
+ORIGINAL:
+@elonmusk #Think about buying a country , #Mexico ? You could turn it into the Richest Country in the world, with Trump as President and all his people moving to Mexico with their own #Constitution  and to boot all the cheap labor you would ever need for @Tesla  @SafetyMentalst
+
+GROUND TRUTH:
+Hashtags: ['#Think', '#Mexico', '#Constitution']
+Mentions: ['@elonmusk', '@Tesla', '@SafetyMentalst']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '#Think', 'about', 'buying', 'a', 'country', ',', '#Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#Constitution', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@Tesla', '@SafetyMentalst']
+Token count: 50
+
+SPACY:
+['@elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', ' ', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@Tesla', ' ', '@SafetyMentalst']
+Token count: 55
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@', 'Tesla', '@', 'SafetyMentalst']
+Token count: 56
+
+================================================================================
+POST 36
+================================================================================
+
+ORIGINAL:
+@get_innocuous Actual receipts, and yet you haven’t asked anyone to buy you a Tesla. Grifters on the right probably rake in 5k for every 100 spent! If you DID set up a gofund me, this would be a worthy cause!
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@get_innocuous']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@get_innocuous', 'Actual', 'receipts', ',', 'and', 'yet', 'you', 'haven', '’', 't', 'asked', 'anyone', 'to', 'buy', 'you', 'a', 'Tesla', '.', 'Grifters', 'on', 'the', 'right', 'probably', 'rake', 'in', '5k', 'for', 'every', '100', 'spent', '!', 'If', 'you', 'DID', 'set', 'up', 'a', 'gofund', 'me', ',', 'this', 'would', 'be', 'a', 'worthy', 'cause', '!']
+Token count: 47
+
+SPACY:
+['@get_innocuous', 'Actual', 'receipts', ',', 'and', 'yet', 'you', 'have', 'n’t', 'asked', 'anyone', 'to', 'buy', 'you', 'a', 'Tesla', '.', 'Grifters', 'on', 'the', 'right', 'probably', 'rake', 'in', '5k', 'for', 'every', '100', 'spent', '!', 'If', 'you', 'DID', 'set', 'up', 'a', 'gofund', 'me', ',', 'this', 'would', 'be', 'a', 'worthy', 'cause', '!']
+Token count: 46
+
+NLTK WORD TOKENIZE:
+['@', 'get_innocuous', 'Actual', 'receipts', ',', 'and', 'yet', 'you', 'haven', '’', 't', 'asked', 'anyone', 'to', 'buy', 'you', 'a', 'Tesla', '.', 'Grifters', 'on', 'the', 'right', 'probably', 'rake', 'in', '5k', 'for', 'every', '100', 'spent', '!', 'If', 'you', 'DID', 'set', 'up', 'a', 'gofund', 'me', ',', 'this', 'would', 'be', 'a', 'worthy', 'cause', '!']
+Token count: 48
+
+================================================================================
+POST 37
+================================================================================
+
+ORIGINAL:
+Tesla wall battery for the save! Power went out but can still run my ac when its about to be 100*
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: []
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['Tesla', 'wall', 'battery', 'for', 'the', 'save', '!', 'Power', 'went', 'out', 'but', 'can', 'still', 'run', 'my', 'ac', 'when', 'its', 'about', 'to', 'be', '100', '*']
+Token count: 23
+
+SPACY:
+['Tesla', 'wall', 'battery', 'for', 'the', 'save', '!', 'Power', 'went', 'out', 'but', 'can', 'still', 'run', 'my', 'ac', 'when', 'its', 'about', 'to', 'be', '100', '*']
+Token count: 23
+
+NLTK WORD TOKENIZE:
+['Tesla', 'wall', 'battery', 'for', 'the', 'save', '!', 'Power', 'went', 'out', 'but', 'can', 'still', 'run', 'my', 'ac', 'when', 'its', 'about', 'to', 'be', '100', '*']
+Token count: 23
+
+================================================================================
+POST 38
+================================================================================
+
+ORIGINAL:
+for sale: 2021 Used TESLA MODEL Y STANDARD RANGE. REAR WHEEL DRIVE.  Autopilot. Midnight Silver. Black. 16,800-miles. $64,900. Lincoln. Nebraska.   https://t.co/8OXKGIOTMm
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: []
+URLs: ['https://t.co/8OXKGIOTMm']
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['for', 'sale', ':', '2021', 'Used', 'TESLA', 'MODEL', 'Y', 'STANDARD', 'RANGE', '.', 'REAR', 'WHEEL', 'DRIVE', '.', 'Autopilot', '.', 'Midnight', 'Silver', '.', 'Black', '.', '16,800-', 'miles', '.', '$', '64,900', '.', 'Lincoln', '.', 'Nebraska', '.', 'https://t.co/8OXKGIOTMm']
+Token count: 33
+
+SPACY:
+['for', 'sale', ':', '2021', 'Used', 'TESLA', 'MODEL', 'Y', 'STANDARD', 'RANGE', '.', 'REAR', 'WHEEL', 'DRIVE', '.', ' ', 'Autopilot', '.', 'Midnight', 'Silver', '.', 'Black', '.', '16,800', '-', 'miles', '.', '$', '64,900', '.', 'Lincoln', '.', 'Nebraska', '.', '  ', 'https://t.co/8OXKGIOTMm']
+Token count: 36
+
+NLTK WORD TOKENIZE:
+['for', 'sale', ':', '2021', 'Used', 'TESLA', 'MODEL', 'Y', 'STANDARD', 'RANGE', '.', 'REAR', 'WHEEL', 'DRIVE', '.', 'Autopilot', '.', 'Midnight', 'Silver', '.', 'Black', '.', '16,800-miles', '.', '$', '64,900', '.', 'Lincoln', '.', 'Nebraska', '.', 'https', ':', '//t.co/8OXKGIOTMm']
+Token count: 34
+
+================================================================================
+POST 39
+================================================================================
+
+ORIGINAL:
+@Tesla @elonmusk #Think about buying a country , #Mexico ? You could turn it into the Richest Country in the world, with Trump as President and all his people moving to Mexico with their own #Constitution  and to boot all the cheap labor you would ever need for @Tesla  @SafetyMentalst
+
+GROUND TRUTH:
+Hashtags: ['#Think', '#Mexico', '#Constitution']
+Mentions: ['@Tesla', '@elonmusk', '@Tesla', '@SafetyMentalst']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@Tesla', '@elonmusk', '#Think', 'about', 'buying', 'a', 'country', ',', '#Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#Constitution', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@Tesla', '@SafetyMentalst']
+Token count: 51
+
+SPACY:
+['@Tesla', '@elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', ' ', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@Tesla', ' ', '@SafetyMentalst']
+Token count: 56
+
+NLTK WORD TOKENIZE:
+['@', 'Tesla', '@', 'elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@', 'Tesla', '@', 'SafetyMentalst']
+Token count: 58
+
+================================================================================
+POST 40
+================================================================================
+
+ORIGINAL:
+$TSLA  not a full MacD cross down yet, but remember - buy under $700 and sell over $700 on Tesla. I mentioned last week I sold half my lot at $750 ahead of what I expect to be weak earnings. I'll be buying more on weakness. Look at the chart @TrendSpider  https://t.co/uclABEgB7h
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@TrendSpider']
+URLs: ['https://t.co/uclABEgB7h']
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['$', 'TSLA', 'not', 'a', 'full', 'MacD', 'cross', 'down', 'yet', ',', 'but', 'remember', '-', 'buy', 'under', '$', '700', 'and', 'sell', 'over', '$', '700', 'on', 'Tesla', '.', 'I', 'mentioned', 'last', 'week', 'I', 'sold', 'half', 'my', 'lot', 'at', '$', '750', 'ahead', 'of', 'what', 'I', 'expect', 'to', 'be', 'weak', 'earnings', '.', "I'll", 'be', 'buying', 'more', 'on', 'weakness', '.', 'Look', 'at', 'the', 'chart', '@TrendSpider', 'https://t.co/uclABEgB7h']
+Token count: 60
+
+SPACY:
+['$', 'TSLA', ' ', 'not', 'a', 'full', 'MacD', 'cross', 'down', 'yet', ',', 'but', 'remember', '-', 'buy', 'under', '$', '700', 'and', 'sell', 'over', '$', '700', 'on', 'Tesla', '.', 'I', 'mentioned', 'last', 'week', 'I', 'sold', 'half', 'my', 'lot', 'at', '$', '750', 'ahead', 'of', 'what', 'I', 'expect', 'to', 'be', 'weak', 'earnings', '.', 'I', "'ll", 'be', 'buying', 'more', 'on', 'weakness', '.', 'Look', 'at', 'the', 'chart', '@TrendSpider', ' ', 'https://t.co/uclABEgB7h']
+Token count: 63
+
+NLTK WORD TOKENIZE:
+['$', 'TSLA', 'not', 'a', 'full', 'MacD', 'cross', 'down', 'yet', ',', 'but', 'remember', '-', 'buy', 'under', '$', '700', 'and', 'sell', 'over', '$', '700', 'on', 'Tesla', '.', 'I', 'mentioned', 'last', 'week', 'I', 'sold', 'half', 'my', 'lot', 'at', '$', '750', 'ahead', 'of', 'what', 'I', 'expect', 'to', 'be', 'weak', 'earnings', '.', 'I', "'ll", 'be', 'buying', 'more', 'on', 'weakness', '.', 'Look', 'at', 'the', 'chart', '@', 'TrendSpider', 'https', ':', '//t.co/uclABEgB7h']
+Token count: 64
+
+================================================================================
+POST 41
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom as far as I remember, Leonardo da Vinci already wrote in his scripts that children should be conceived and raised in love so that they have a valuable life, and that means that children are love,  like Leonardo i believe, love is important from the very first moment
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'as', 'far', 'as', 'I', 'remember', ',', 'Leonardo', 'da', 'Vinci', 'already', 'wrote', 'in', 'his', 'scripts', 'that', 'children', 'should', 'be', 'conceived', 'and', 'raised', 'in', 'love', 'so', 'that', 'they', 'have', 'a', 'valuable', 'life', ',', 'and', 'that', 'means', 'that', 'children', 'are', 'love', ',', 'like', 'Leonardo', 'i', 'believe', ',', 'love', 'is', 'important', 'from', 'the', 'very', 'first', 'moment']
+Token count: 63
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'as', 'far', 'as', 'I', 'remember', ',', 'Leonardo', 'da', 'Vinci', 'already', 'wrote', 'in', 'his', 'scripts', 'that', 'children', 'should', 'be', 'conceived', 'and', 'raised', 'in', 'love', 'so', 'that', 'they', 'have', 'a', 'valuable', 'life', ',', 'and', 'that', 'means', 'that', 'children', 'are', 'love', ',', ' ', 'like', 'Leonardo', 'i', 'believe', ',', 'love', 'is', 'important', 'from', 'the', 'very', 'first', 'moment']
+Token count: 64
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'as', 'far', 'as', 'I', 'remember', ',', 'Leonardo', 'da', 'Vinci', 'already', 'wrote', 'in', 'his', 'scripts', 'that', 'children', 'should', 'be', 'conceived', 'and', 'raised', 'in', 'love', 'so', 'that', 'they', 'have', 'a', 'valuable', 'life', ',', 'and', 'that', 'means', 'that', 'children', 'are', 'love', ',', 'like', 'Leonardo', 'i', 'believe', ',', 'love', 'is', 'important', 'from', 'the', 'very', 'first', 'moment']
+Token count: 74
+
+================================================================================
+POST 42
+================================================================================
+
+ORIGINAL:
+@RickMcIntosh16 @greg16676935420 @elonmusk Let’s me real , no average American is going to pay 40K to 70K for a car when they can barely afford cost of a new car right now   Tesla is not recession proof and when the economy starts shitting brinks , Tesla is fucked. No wonder why Elon wanted twitter
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@RickMcIntosh16', '@greg16676935420', '@elonmusk']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@RickMcIntosh16', '@greg16676935420', '@elonmusk', 'Let', '’', 's', 'me', 'real', ',', 'no', 'average', 'American', 'is', 'going', 'to', 'pay', '40K', 'to', '70K', 'for', 'a', 'car', 'when', 'they', 'can', 'barely', 'afford', 'cost', 'of', 'a', 'new', 'car', 'right', 'now', 'Tesla', 'is', 'not', 'recession', 'proof', 'and', 'when', 'the', 'economy', 'starts', 'shitting', 'brinks', ',', 'Tesla', 'is', 'fucked', '.', 'No', 'wonder', 'why', 'Elon', 'wanted', 'twitter']
+Token count: 57
+
+SPACY:
+['@RickMcIntosh16', '@greg16676935420', '@elonmusk', 'Let', '’s', 'me', 'real', ',', 'no', 'average', 'American', 'is', 'going', 'to', 'pay', '40', 'K', 'to', '70', 'K', 'for', 'a', 'car', 'when', 'they', 'can', 'barely', 'afford', 'cost', 'of', 'a', 'new', 'car', 'right', 'now', '  ', 'Tesla', 'is', 'not', 'recession', 'proof', 'and', 'when', 'the', 'economy', 'starts', 'shitting', 'brinks', ',', 'Tesla', 'is', 'fucked', '.', 'No', 'wonder', 'why', 'Elon', 'wanted', 'twitter']
+Token count: 59
+
+NLTK WORD TOKENIZE:
+['@', 'RickMcIntosh16', '@', 'greg16676935420', '@', 'elonmusk', 'Let', '’', 's', 'me', 'real', ',', 'no', 'average', 'American', 'is', 'going', 'to', 'pay', '40K', 'to', '70K', 'for', 'a', 'car', 'when', 'they', 'can', 'barely', 'afford', 'cost', 'of', 'a', 'new', 'car', 'right', 'now', 'Tesla', 'is', 'not', 'recession', 'proof', 'and', 'when', 'the', 'economy', 'starts', 'shitting', 'brinks', ',', 'Tesla', 'is', 'fucked', '.', 'No', 'wonder', 'why', 'Elon', 'wanted', 'twitter']
+Token count: 60
+
+================================================================================
+POST 43
+================================================================================
+
+ORIGINAL:
+@Turbo8oost @senafan1901 @FrederickZiffel @RobertELBowman You are now becoming a joke. Clutching at straws trying to make out your beloved Tesla is the only answer. It's laughable and why America is lagging behind in going "green" I'm sure it will soon be against your constitution! As we say, (not in a good way), " Only in America!"
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@Turbo8oost', '@senafan1901', '@FrederickZiffel', '@RobertELBowman']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@Turbo8oost', '@senafan1901', '@FrederickZiffel', '@RobertELBowman', 'You', 'are', 'now', 'becoming', 'a', 'joke', '.', 'Clutching', 'at', 'straws', 'trying', 'to', 'make', 'out', 'your', 'beloved', 'Tesla', 'is', 'the', 'only', 'answer', '.', "It's", 'laughable', 'and', 'why', 'America', 'is', 'lagging', 'behind', 'in', 'going', '"', 'green', '"', "I'm", 'sure', 'it', 'will', 'soon', 'be', 'against', 'your', 'constitution', '!', 'As', 'we', 'say', ',', '(', 'not', 'in', 'a', 'good', 'way', ')', ',', '"', 'Only', 'in', 'America', '!', '"']
+Token count: 67
+
+SPACY:
+['@Turbo8oost', '@senafan1901', '@FrederickZiffel', '@RobertELBowman', 'You', 'are', 'now', 'becoming', 'a', 'joke', '.', 'Clutching', 'at', 'straws', 'trying', 'to', 'make', 'out', 'your', 'beloved', 'Tesla', 'is', 'the', 'only', 'answer', '.', 'It', "'s", 'laughable', 'and', 'why', 'America', 'is', 'lagging', 'behind', 'in', 'going', '"', 'green', '"', 'I', "'m", 'sure', 'it', 'will', 'soon', 'be', 'against', 'your', 'constitution', '!', 'As', 'we', 'say', ',', '(', 'not', 'in', 'a', 'good', 'way', ')', ',', '"', 'Only', 'in', 'America', '!', '"']
+Token count: 69
+
+NLTK WORD TOKENIZE:
+['@', 'Turbo8oost', '@', 'senafan1901', '@', 'FrederickZiffel', '@', 'RobertELBowman', 'You', 'are', 'now', 'becoming', 'a', 'joke', '.', 'Clutching', 'at', 'straws', 'trying', 'to', 'make', 'out', 'your', 'beloved', 'Tesla', 'is', 'the', 'only', 'answer', '.', 'It', "'s", 'laughable', 'and', 'why', 'America', 'is', 'lagging', 'behind', 'in', 'going', '``', 'green', "''", 'I', "'m", 'sure', 'it', 'will', 'soon', 'be', 'against', 'your', 'constitution', '!', 'As', 'we', 'say', ',', '(', 'not', 'in', 'a', 'good', 'way', ')', ',', '``', 'Only', 'in', 'America', '!', "''"]
+Token count: 73
+
+================================================================================
+POST 44
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom How weird has the world gotten that we need reminders that children are essential to our future 😂.
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: ['😂']
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'How', 'weird', 'has', 'the', 'world', 'gotten', 'that', 'we', 'need', 'reminders', 'that', 'children', 'are', 'essential', 'to', 'our', 'future', '😂', '.']
+Token count: 30
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'How', 'weird', 'has', 'the', 'world', 'gotten', 'that', 'we', 'need', 'reminders', 'that', 'children', 'are', 'essential', 'to', 'our', 'future', '😂', '.']
+Token count: 30
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'How', 'weird', 'has', 'the', 'world', 'gotten', 'that', 'we', 'need', 'reminders', 'that', 'children', 'are', 'essential', 'to', 'our', 'future', '😂', '.']
+Token count: 41
+
+================================================================================
+POST 45
+================================================================================
+
+ORIGINAL:
+@elonmusk chances we get airplay to tesla? Wouldn’t mind getting Xbox play on tesla either 😏
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk']
+URLs: []
+Emojis: ['😏']
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', 'chances', 'we', 'get', 'airplay', 'to', 'tesla', '?', 'Wouldn', '’', 't', 'mind', 'getting', 'Xbox', 'play', 'on', 'tesla', 'either', '😏']
+Token count: 19
+
+SPACY:
+['@elonmusk', 'chances', 'we', 'get', 'airplay', 'to', 'tesla', '?', 'Would', 'n’t', 'mind', 'getting', 'Xbox', 'play', 'on', 'tesla', 'either', '😏']
+Token count: 18
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', 'chances', 'we', 'get', 'airplay', 'to', 'tesla', '?', 'Wouldn', '’', 't', 'mind', 'getting', 'Xbox', 'play', 'on', 'tesla', 'either', '😏']
+Token count: 20
+
+================================================================================
+POST 46
+================================================================================
+
+ORIGINAL:
+@JamesHoffmann3 @TaylorOgan @Christiano92 @bagguley @physics_savage @kunalbht 1- When a car passes me or a motorcycle is coming from the opposite direction, my M3 2019 swerves to the right. 2- A ridicule amount of phantom breaking  Service center response:  This is cause by radar, Remove emergency brake function!!!  Robotaxi ready?🤣🤣🤣 @Tesla @elonmusk
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@JamesHoffmann3', '@TaylorOgan', '@Christiano92', '@bagguley', '@physics_savage', '@kunalbht', '@Tesla', '@elonmusk']
+URLs: []
+Emojis: ['🤣', '🤣', '🤣']
+
+NLTK TWEET TOKENIZER:
+['@JamesHoffmann3', '@TaylorOgan', '@Christiano92', '@bagguley', '@physics_savage', '@kunalbht', '1', '-', 'When', 'a', 'car', 'passes', 'me', 'or', 'a', 'motorcycle', 'is', 'coming', 'from', 'the', 'opposite', 'direction', ',', 'my', 'M3', '2019', 'swerves', 'to', 'the', 'right', '.', '2', '-', 'A', 'ridicule', 'amount', 'of', 'phantom', 'breaking', 'Service', 'center', 'response', ':', 'This', 'is', 'cause', 'by', 'radar', ',', 'Remove', 'emergency', 'brake', 'function', '!', '!', '!', 'Robotaxi', 'ready', '?', '🤣', '🤣', '🤣', '@Tesla', '@elonmusk']
+Token count: 64
+
+SPACY:
+['@JamesHoffmann3', '@TaylorOgan', '@Christiano92', '@bagguley', '@physics_savage', '@kunalbht', '1-', 'When', 'a', 'car', 'passes', 'me', 'or', 'a', 'motorcycle', 'is', 'coming', 'from', 'the', 'opposite', 'direction', ',', 'my', 'M3', '2019', 'swerves', 'to', 'the', 'right', '.', '2-', 'A', 'ridicule', 'amount', 'of', 'phantom', 'breaking', ' ', 'Service', 'center', 'response', ':', ' ', 'This', 'is', 'cause', 'by', 'radar', ',', 'Remove', 'emergency', 'brake', 'function', '!', '!', '!', ' ', 'Robotaxi', 'ready', '?', '🤣', '🤣', '🤣', '@Tesla', '@elonmusk']
+Token count: 65
+
+NLTK WORD TOKENIZE:
+['@', 'JamesHoffmann3', '@', 'TaylorOgan', '@', 'Christiano92', '@', 'bagguley', '@', 'physics_savage', '@', 'kunalbht', '1-', 'When', 'a', 'car', 'passes', 'me', 'or', 'a', 'motorcycle', 'is', 'coming', 'from', 'the', 'opposite', 'direction', ',', 'my', 'M3', '2019', 'swerves', 'to', 'the', 'right', '.', '2-', 'A', 'ridicule', 'amount', 'of', 'phantom', 'breaking', 'Service', 'center', 'response', ':', 'This', 'is', 'cause', 'by', 'radar', ',', 'Remove', 'emergency', 'brake', 'function', '!', '!', '!', 'Robotaxi', 'ready', '?', '🤣🤣🤣', '@', 'Tesla', '@', 'elonmusk']
+Token count: 68
+
+================================================================================
+POST 47
+================================================================================
+
+ORIGINAL:
+Tesla previews a solar-powered ‘trailer’ - The Independent  https://t.co/00CPxDeG63
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: []
+URLs: ['https://t.co/00CPxDeG63']
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['Tesla', 'previews', 'a', 'solar-powered', '‘', 'trailer', '’', '-', 'The', 'Independent', 'https://t.co/00CPxDeG63']
+Token count: 11
+
+SPACY:
+['Tesla', 'previews', 'a', 'solar', '-', 'powered', '‘', 'trailer', '’', '-', 'The', 'Independent', ' ', 'https://t.co/00CPxDeG63']
+Token count: 14
+
+NLTK WORD TOKENIZE:
+['Tesla', 'previews', 'a', 'solar-powered', '‘', 'trailer', '’', '-', 'The', 'Independent', 'https', ':', '//t.co/00CPxDeG63']
+Token count: 13
+
+================================================================================
+POST 48
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom ALL children are of infinite value.
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'ALL', 'children', 'are', 'of', 'infinite', 'value', '.']
+Token count: 18
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'ALL', 'children', 'are', 'of', 'infinite', 'value', '.']
+Token count: 18
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'ALL', 'children', 'are', 'of', 'infinite', 'value', '.']
+Token count: 29
+
+================================================================================
+POST 49
+================================================================================
+
+ORIGINAL:
+The engagement between Elon Musk and Twitter was short lived. What are your thoughts on this mega-deal collapsing?  https://t.co/hjHR2R9FEl   #twitter #elonmusk #tesla  https://t.co/xh45BdFj9y
+
+GROUND TRUTH:
+Hashtags: ['#twitter', '#elonmusk', '#tesla']
+Mentions: []
+URLs: ['https://t.co/hjHR2R9FEl', 'https://t.co/xh45BdFj9y']
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['The', 'engagement', 'between', 'Elon', 'Musk', 'and', 'Twitter', 'was', 'short', 'lived', '.', 'What', 'are', 'your', 'thoughts', 'on', 'this', 'mega-deal', 'collapsing', '?', 'https://t.co/hjHR2R9FEl', '#twitter', '#elonmusk', '#tesla', 'https://t.co/xh45BdFj9y']
+Token count: 25
+
+SPACY:
+['The', 'engagement', 'between', 'Elon', 'Musk', 'and', 'Twitter', 'was', 'short', 'lived', '.', 'What', 'are', 'your', 'thoughts', 'on', 'this', 'mega', '-', 'deal', 'collapsing', '?', ' ', 'https://t.co/hjHR2R9FEl', '  ', '#', 'twitter', '#', 'elonmusk', '#', 'tesla', ' ', 'https://t.co/xh45BdFj9y']
+Token count: 33
+
+NLTK WORD TOKENIZE:
+['The', 'engagement', 'between', 'Elon', 'Musk', 'and', 'Twitter', 'was', 'short', 'lived', '.', 'What', 'are', 'your', 'thoughts', 'on', 'this', 'mega-deal', 'collapsing', '?', 'https', ':', '//t.co/hjHR2R9FEl', '#', 'twitter', '#', 'elonmusk', '#', 'tesla', 'https', ':', '//t.co/xh45BdFj9y']
+Token count: 32
+
+================================================================================
+POST 50
+================================================================================
+
+ORIGINAL:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Not necessarily
+
+GROUND TRUTH:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+NLTK TWEET TOKENIZER:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Not', 'necessarily']
+Token count: 13
+
+SPACY:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', 'Not', 'necessarily']
+Token count: 13
+
+NLTK WORD TOKENIZE:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Not', 'necessarily']
+Token count: 24
+

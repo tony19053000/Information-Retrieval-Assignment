@@ -1,0 +1,1651 @@
+====================================================================================================
+NLTK TweetTokenizer
+====================================================================================================
+
+POST 1
+----------------------------------------------------------------------------------------------------
+Original:
+#ICYMI  #Vibes To Ease You Back Into The #Work Week! Join Me In The Latest #Liveone #HIPHOP #RnB Countdown...U Pick Em, I Play Em @liveone   Listen On The Job, On The Go...In Ya @Tesla  ▶️ https://t.co/xLTr3ndbDM  https://t.co/cbYgGKVetn
+
+Ground Truth:
+Hashtags: ['#ICYMI', '#Vibes', '#Work', '#Liveone', '#HIPHOP', '#RnB']
+Mentions: ['@liveone', '@Tesla']
+URLs: ['https://t.co/xLTr3ndbDM', 'https://t.co/cbYgGKVetn']
+Emojis: ['▶️']
+
+Tokenizer Output:
+['#ICYMI', '#Vibes', 'To', 'Ease', 'You', 'Back', 'Into', 'The', '#Work', 'Week', '!', 'Join', 'Me', 'In', 'The', 'Latest', '#Liveone', '#HIPHOP', '#RnB', 'Countdown', '...', 'U', 'Pick', 'Em', ',', 'I', 'Play', 'Em', '@liveone', 'Listen', 'On', 'The', 'Job', ',', 'On', 'The', 'Go', '...', 'In', 'Ya', '@Tesla', '▶', '️', 'https://t.co/xLTr3ndbDM', 'https://t.co/cbYgGKVetn']
+
+Errors:
+- Emojis: ▶️
+
+POST 5
+----------------------------------------------------------------------------------------------------
+Original:
+@socratesxoxo @thefarcentrist @ThomasMoneyhon @coldgamecrispy @TheAlexisKraft @elonmusk "He also paid off his debt unlike u did"  Boy, you're just full of your ASSuming self aren't you. 🤭  So the 2 ..3 guys that started Tesla 'were not revolutionizing' the electric car industry  🤦‍♀️  Show me my "misinformation"  I've attached a few of yours  ...  https://t.co/39IFmDq79y
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk']
+URLs: ['https://t.co/39IFmDq79y']
+Emojis: ['🤭', '🤦\u200d♀️']
+
+Tokenizer Output:
+['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk', '"', 'He', 'also', 'paid', 'off', 'his', 'debt', 'unlike', 'u', 'did', '"', 'Boy', ',', "you're", 'just', 'full', 'of', 'your', 'ASSuming', 'self', "aren't", 'you', '.', '🤭', 'So', 'the', '2', '..', '3', 'guys', 'that', 'started', 'Tesla', "'", 'were', 'not', 'revolutionizing', "'", 'the', 'electric', 'car', 'industry', '🤦\u200d♀', '️', 'Show', 'me', 'my', '"', 'misinformation', '"', "I've", 'attached', 'a', 'few', 'of', 'yours', '...', 'https://t.co/39IFmDq79y']
+
+Errors:
+- Emojis: 🤦‍♀️
+
+====================================================================================================
+spaCy
+====================================================================================================
+
+POST 1
+----------------------------------------------------------------------------------------------------
+Original:
+#ICYMI  #Vibes To Ease You Back Into The #Work Week! Join Me In The Latest #Liveone #HIPHOP #RnB Countdown...U Pick Em, I Play Em @liveone   Listen On The Job, On The Go...In Ya @Tesla  ▶️ https://t.co/xLTr3ndbDM  https://t.co/cbYgGKVetn
+
+Ground Truth:
+Hashtags: ['#ICYMI', '#Vibes', '#Work', '#Liveone', '#HIPHOP', '#RnB']
+Mentions: ['@liveone', '@Tesla']
+URLs: ['https://t.co/xLTr3ndbDM', 'https://t.co/cbYgGKVetn']
+Emojis: ['▶️']
+
+Tokenizer Output:
+['#', 'ICYMI', ' ', '#', 'Vibes', 'To', 'Ease', 'You', 'Back', 'Into', 'The', '#', 'Work', 'Week', '!', 'Join', 'Me', 'In', 'The', 'Latest', '#', 'Liveone', '#', 'HIPHOP', '#', 'RnB', 'Countdown', '...', 'U', 'Pick', 'Em', ',', 'I', 'Play', 'Em', '@liveone', '  ', 'Listen', 'On', 'The', 'Job', ',', 'On', 'The', 'Go', '...', 'In', 'Ya', '@Tesla', ' ', '▶', '️', 'https://t.co/xLTr3ndbDM', ' ', 'https://t.co/cbYgGKVetn']
+
+Errors:
+- Hashtags: #ICYMI
+- Hashtags: #Vibes
+- Hashtags: #Work
+- Hashtags: #Liveone
+- Hashtags: #HIPHOP
+- Hashtags: #RnB
+- Emojis: ▶️
+
+POST 2
+----------------------------------------------------------------------------------------------------
+Original:
+@rovercrc #btc I guess it will go higher this week maybe 70k lol 😆 @cryptocom $tesla #BNB #Bitcoin  https://t.co/H4ivHAJac2
+
+Ground Truth:
+Hashtags: ['#btc', '#BNB', '#Bitcoin']
+Mentions: ['@rovercrc', '@cryptocom']
+URLs: ['https://t.co/H4ivHAJac2']
+Emojis: ['😆']
+
+Tokenizer Output:
+['@rovercrc', '#', 'btc', 'I', 'guess', 'it', 'will', 'go', 'higher', 'this', 'week', 'maybe', '70k', 'lol', '😆', '@cryptocom', '$', 'tesla', '#', 'BNB', '#', 'Bitcoin', ' ', 'https://t.co/H4ivHAJac2']
+
+Errors:
+- Hashtags: #btc
+- Hashtags: #BNB
+- Hashtags: #Bitcoin
+
+POST 3
+----------------------------------------------------------------------------------------------------
+Original:
+I'm without glasses so I cannot see if he had a Tesla logo... lol 😆 🤣 😂  I'm very happy he played chess. #chess @FIDE_chess @USChess  https://t.co/hWUrAqttlZ
+
+Ground Truth:
+Hashtags: ['#chess']
+Mentions: ['@FIDE_chess', '@USChess']
+URLs: ['https://t.co/hWUrAqttlZ']
+Emojis: ['😆', '🤣', '😂']
+
+Tokenizer Output:
+['I', "'m", 'without', 'glasses', 'so', 'I', 'can', 'not', 'see', 'if', 'he', 'had', 'a', 'Tesla', 'logo', '...', 'lol', '😆', '🤣', '😂', ' ', 'I', "'m", 'very', 'happy', 'he', 'played', 'chess', '.', '#', 'chess', '@FIDE_chess', '@USChess', ' ', 'https://t.co/hWUrAqttlZ']
+
+Errors:
+- Hashtags: #chess
+
+POST 4
+----------------------------------------------------------------------------------------------------
+Original:
+@VoltInuOfficial My entry  $volt #volt #voltinu  Nikola Tesla beats Thomas Edison in creating the most powerful source of electricity ⚡️  https://t.co/KWoXJXj4n6
+
+Ground Truth:
+Hashtags: ['#volt', '#voltinu']
+Mentions: ['@VoltInuOfficial']
+URLs: ['https://t.co/KWoXJXj4n6']
+Emojis: ['⚡']
+
+Tokenizer Output:
+['@VoltInuOfficial', 'My', 'entry', ' ', '$', 'volt', '#', 'volt', '#', 'voltinu', ' ', 'Nikola', 'Tesla', 'beats', 'Thomas', 'Edison', 'in', 'creating', 'the', 'most', 'powerful', 'source', 'of', 'electricity', '⚡', '️', ' ', 'https://t.co/KWoXJXj4n6']
+
+Errors:
+- Hashtags: #volt
+- Hashtags: #voltinu
+
+POST 5
+----------------------------------------------------------------------------------------------------
+Original:
+@socratesxoxo @thefarcentrist @ThomasMoneyhon @coldgamecrispy @TheAlexisKraft @elonmusk "He also paid off his debt unlike u did"  Boy, you're just full of your ASSuming self aren't you. 🤭  So the 2 ..3 guys that started Tesla 'were not revolutionizing' the electric car industry  🤦‍♀️  Show me my "misinformation"  I've attached a few of yours  ...  https://t.co/39IFmDq79y
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk']
+URLs: ['https://t.co/39IFmDq79y']
+Emojis: ['🤭', '🤦\u200d♀️']
+
+Tokenizer Output:
+['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk', '"', 'He', 'also', 'paid', 'off', 'his', 'debt', 'unlike', 'u', 'did', '"', ' ', 'Boy', ',', 'you', "'re", 'just', 'full', 'of', 'your', 'ASSuming', 'self', 'are', "n't", 'you', '.', '🤭', ' ', 'So', 'the', '2', '..', '3', 'guys', 'that', 'started', 'Tesla', "'", 'were', 'not', 'revolutionizing', "'", 'the', 'electric', 'car', 'industry', ' ', '🤦', '\u200d', '♀', '️', ' ', 'Show', 'me', 'my', '"', 'misinformation', '"', ' ', 'I', "'ve", 'attached', 'a', 'few', 'of', 'yours', ' ', '...', ' ', 'https://t.co/39IFmDq79y']
+
+Errors:
+- Emojis: 🤦‍♀️
+
+POST 6
+----------------------------------------------------------------------------------------------------
+Original:
+Want to charge ⚡️your non-@tesla at a public Supercharger site? Fancy some of Elon's electrons? @Nickishields takes you through the whole process...  See the full video and other charging guides:  https://t.co/RSpqLajjjd #tesla #supercharging  https://t.co/fKj9kmySuB
+
+Ground Truth:
+Hashtags: ['#tesla', '#supercharging']
+Mentions: ['@tesla', '@Nickishields']
+URLs: ['https://t.co/RSpqLajjjd', 'https://t.co/fKj9kmySuB']
+Emojis: ['⚡']
+
+Tokenizer Output:
+['Want', 'to', 'charge', '⚡', '️your', 'non-@tesla', 'at', 'a', 'public', 'Supercharger', 'site', '?', 'Fancy', 'some', 'of', 'Elon', "'s", 'electrons', '?', '@Nickishields', 'takes', 'you', 'through', 'the', 'whole', 'process', '...', ' ', 'See', 'the', 'full', 'video', 'and', 'other', 'charging', 'guides', ':', ' ', 'https://t.co/RSpqLajjjd', '#', 'tesla', '#', 'supercharging', ' ', 'https://t.co/fKj9kmySuB']
+
+Errors:
+- Hashtags: #tesla
+- Hashtags: #supercharging
+- Mentions: @tesla
+
+POST 7
+----------------------------------------------------------------------------------------------------
+Original:
+"The #nickel reserve in #Quebec can DOUBLE."  Find out when @CampbellMccrary of #AMVESTCapital invites Tony Guo CEO of Nickel North $NNX.V  🗓 1:00pm EST Thurs July 14, 2022 #Join 👉  https://t.co/qoeqcRlZX7 #cleanenergy #battery $TSLA @Tesla @JulesInvest @Rivian @RivianChat  https://t.co/K6NKeAkweZ
+
+Ground Truth:
+Hashtags: ['#nickel', '#Quebec', '#AMVESTCapital', '#Join', '#cleanenergy', '#battery']
+Mentions: ['@CampbellMccrary', '@Tesla', '@JulesInvest', '@Rivian', '@RivianChat']
+URLs: ['https://t.co/qoeqcRlZX7', 'https://t.co/K6NKeAkweZ']
+Emojis: ['🗓', '👉']
+
+Tokenizer Output:
+['"', 'The', '#', 'nickel', 'reserve', 'in', '#', 'Quebec', 'can', 'DOUBLE', '.', '"', ' ', 'Find', 'out', 'when', '@CampbellMccrary', 'of', '#', 'AMVESTCapital', 'invites', 'Tony', 'Guo', 'CEO', 'of', 'Nickel', 'North', '$', 'NNX.V', ' ', '🗓', '1:00pm', 'EST', 'Thurs', 'July', '14', ',', '2022', '#', 'Join', '👉', ' ', 'https://t.co/qoeqcRlZX7', '#', 'cleanenergy', '#', 'battery', '$', 'TSLA', '@Tesla', '@JulesInvest', '@Rivian', '@RivianChat', ' ', 'https://t.co/K6NKeAkweZ']
+
+Errors:
+- Hashtags: #nickel
+- Hashtags: #Quebec
+- Hashtags: #AMVESTCapital
+- Hashtags: #Join
+- Hashtags: #cleanenergy
+- Hashtags: #battery
+
+POST 9
+----------------------------------------------------------------------------------------------------
+Original:
+Modern day Nikola #Tesla 🤔🤔🤔 what do you think? 🔥🔥🔥 #ElonMusk @elonmusk #dogearmy #dogecoin  https://t.co/Fc2ZSBmRcG
+
+Ground Truth:
+Hashtags: ['#Tesla', '#ElonMusk', '#dogearmy', '#dogecoin']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/Fc2ZSBmRcG']
+Emojis: ['🤔', '🤔', '🤔', '🔥', '🔥', '🔥']
+
+Tokenizer Output:
+['Modern', 'day', 'Nikola', '#', 'Tesla', '🤔', '🤔', '🤔', 'what', 'do', 'you', 'think', '?', '🔥', '🔥', '🔥', '#', 'ElonMusk', '@elonmusk', '#', 'dogearmy', '#', 'dogecoin', ' ', 'https://t.co/Fc2ZSBmRcG']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #ElonMusk
+- Hashtags: #dogearmy
+- Hashtags: #dogecoin
+
+POST 10
+----------------------------------------------------------------------------------------------------
+Original:
+Day 4 of posting this meme until @elonmusk delivers the first refreshed Model S &amp; X in Europe. ⚡️ #Tesla $TSLA #TeslaModelS #TeslaModelX  https://t.co/TELpNeOXJK
+
+Ground Truth:
+Hashtags: ['#Tesla', '#TeslaModelS', '#TeslaModelX']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/TELpNeOXJK']
+Emojis: ['⚡']
+
+Tokenizer Output:
+['Day', '4', 'of', 'posting', 'this', 'meme', 'until', '@elonmusk', 'delivers', 'the', 'first', 'refreshed', 'Model', 'S', '&', 'amp', ';', 'X', 'in', 'Europe', '.', '⚡', '️', '#', 'Tesla', '$', 'TSLA', '#', 'TeslaModelS', '#', 'TeslaModelX', ' ', 'https://t.co/TELpNeOXJK']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #TeslaModelS
+- Hashtags: #TeslaModelX
+
+POST 11
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk And say u wanna buy #twitter to be able to sell 8 billion worth of Tesla share and shove your losses in people’ hole… while you had no intention of buying it at first place. @elonmusk is a dangerous man❌
+
+Ground Truth:
+Hashtags: ['#twitter']
+Mentions: ['@elonmusk', '@elonmusk']
+URLs: []
+Emojis: ['❌']
+
+Tokenizer Output:
+['@elonmusk', 'And', 'say', 'u', 'wanna', 'buy', '#', 'twitter', 'to', 'be', 'able', 'to', 'sell', '8', 'billion', 'worth', 'of', 'Tesla', 'share', 'and', 'shove', 'your', 'losses', 'in', 'people', '’', 'hole', '…', 'while', 'you', 'had', 'no', 'intention', 'of', 'buying', 'it', 'at', 'first', 'place', '.', '@elonmusk', 'is', 'a', 'dangerous', 'man', '❌']
+
+Errors:
+- Hashtags: #twitter
+
+POST 12
+----------------------------------------------------------------------------------------------------
+Original:
+This three wheeled solar #electric car charges on the go💡 🎥@IntEngineering #innovation #ElectricVehicles #solarcar #Car #energy #Tesla #ElonMusk #technology #innovationnews  https://t.co/drBh3hbtFb
+
+Ground Truth:
+Hashtags: ['#electric', '#innovation', '#ElectricVehicles', '#solarcar', '#Car', '#energy', '#Tesla', '#ElonMusk', '#technology', '#innovationnews']
+Mentions: ['@IntEngineering']
+URLs: ['https://t.co/drBh3hbtFb']
+Emojis: ['💡', '🎥']
+
+Tokenizer Output:
+['This', 'three', 'wheeled', 'solar', '#', 'electric', 'car', 'charges', 'on', 'the', 'go', '💡', '🎥', '@IntEngineering', '#', 'innovation', '#', 'ElectricVehicles', '#', 'solarcar', '#', 'Car', '#', 'energy', '#', 'Tesla', '#', 'ElonMusk', '#', 'technology', '#', 'innovationnews', ' ', 'https://t.co/drBh3hbtFb']
+
+Errors:
+- Hashtags: #electric
+- Hashtags: #innovation
+- Hashtags: #ElectricVehicles
+- Hashtags: #solarcar
+- Hashtags: #Car
+- Hashtags: #energy
+- Hashtags: #Tesla
+- Hashtags: #ElonMusk
+- Hashtags: #technology
+- Hashtags: #innovationnews
+
+POST 13
+----------------------------------------------------------------------------------------------------
+Original:
+Maybe they'll get a shot of @elonmusk 's space @Tesla he launched a while back!  👋👋👋👋👋  #JamesWebbSpaceTelescope #Biden #Musk #Space #SpaceX  https://t.co/4CW6WSdvuR
+
+Ground Truth:
+Hashtags: ['#JamesWebbSpaceTelescope', '#Biden', '#Musk', '#Space', '#SpaceX']
+Mentions: ['@elonmusk', '@Tesla']
+URLs: ['https://t.co/4CW6WSdvuR']
+Emojis: ['👋', '👋', '👋', '👋', '👋']
+
+Tokenizer Output:
+['Maybe', 'they', "'ll", 'get', 'a', 'shot', 'of', '@elonmusk', "'s", 'space', '@Tesla', 'he', 'launched', 'a', 'while', 'back', '!', ' ', '👋', '👋', '👋', '👋', '👋', ' ', '#', 'JamesWebbSpaceTelescope', '#', 'Biden', '#', 'Musk', '#', 'Space', '#', 'SpaceX', ' ', 'https://t.co/4CW6WSdvuR']
+
+Errors:
+- Hashtags: #JamesWebbSpaceTelescope
+- Hashtags: #Biden
+- Hashtags: #Musk
+- Hashtags: #Space
+- Hashtags: #SpaceX
+
+POST 14
+----------------------------------------------------------------------------------------------------
+Original:
+$TSLA 1/1 woke up &amp; making 40% on a trade 🤣   Bang!   @retradez @MandoTrading @MikeTone_ @Ivan_Avalos8 @ShivamThanvi  #tesla #tessie #spy #spx #LoveIsland  https://t.co/EjevsTQ9DX
+
+Ground Truth:
+Hashtags: ['#tesla', '#tessie', '#spy', '#spx', '#LoveIsland']
+Mentions: ['@retradez', '@MandoTrading', '@MikeTone_', '@Ivan_Avalos8', '@ShivamThanvi']
+URLs: ['https://t.co/EjevsTQ9DX']
+Emojis: ['🤣']
+
+Tokenizer Output:
+['$', 'TSLA', '1/1', 'woke', 'up', '&', 'amp', ';', 'making', '40', '%', 'on', 'a', 'trade', '🤣', '  ', 'Bang', '!', '  ', '@retradez', '@MandoTrading', '@MikeTone', '_', '@Ivan_Avalos8', '@ShivamThanvi', ' ', '#', 'tesla', '#', 'tessie', '#', 'spy', '#', 'spx', '#', 'LoveIsland', ' ', 'https://t.co/EjevsTQ9DX']
+
+Errors:
+- Hashtags: #tesla
+- Hashtags: #tessie
+- Hashtags: #spy
+- Hashtags: #spx
+- Hashtags: #LoveIsland
+- Mentions: @MikeTone_
+
+POST 15
+----------------------------------------------------------------------------------------------------
+Original:
+All Youngsters Role model 🤩  He is The Biggest Businessman &amp; Richest man In World  Our Name is The CEO of Tesla Motors &amp; SpaceX @elonmusk  #ElonMusk #Tesla #SpaceX #BusinessMan #Richestman  https://t.co/p375ycTqnG
+
+Ground Truth:
+Hashtags: ['#ElonMusk', '#Tesla', '#SpaceX', '#BusinessMan', '#Richestman']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/p375ycTqnG']
+Emojis: ['🤩']
+
+Tokenizer Output:
+['All', 'Youngsters', 'Role', 'model', '🤩', ' ', 'He', 'is', 'The', 'Biggest', 'Businessman', '&', 'amp', ';', 'Richest', 'man', 'In', 'World', ' ', 'Our', 'Name', 'is', 'The', 'CEO', 'of', 'Tesla', 'Motors', '&', 'amp', ';', 'SpaceX', '@elonmusk', ' ', '#', 'ElonMusk', '#', 'Tesla', '#', 'SpaceX', '#', 'BusinessMan', '#', 'Richestman', ' ', 'https://t.co/p375ycTqnG']
+
+Errors:
+- Hashtags: #ElonMusk
+- Hashtags: #Tesla
+- Hashtags: #SpaceX
+- Hashtags: #BusinessMan
+- Hashtags: #Richestman
+
+POST 17
+----------------------------------------------------------------------------------------------------
+Original:
+Yesterday's Shoot (My 1st Tesla Shoot)  📸🎥 @redlinesproject   https://t.co/djJchmJF2p Owner: B Car: @Tesla  #Tesla #Model3 #TeslaModel3 #electric #cars #red #sundayvibes #sunset #photoshoot #behindthescenes #bts #cars #rt #turo #business #tech #goodmorning  https://t.co/3bLPilCFdR
+
+Ground Truth:
+Hashtags: ['#Tesla', '#Model3', '#TeslaModel3', '#electric', '#cars', '#red', '#sundayvibes', '#sunset', '#photoshoot', '#behindthescenes', '#bts', '#cars', '#rt', '#turo', '#business', '#tech', '#goodmorning']
+Mentions: ['@redlinesproject', '@Tesla']
+URLs: ['https://t.co/djJchmJF2p', 'https://t.co/3bLPilCFdR']
+Emojis: ['📸', '🎥']
+
+Tokenizer Output:
+['Yesterday', "'s", 'Shoot', '(', 'My', '1st', 'Tesla', 'Shoot', ')', ' ', '📸', '🎥', '@redlinesproject', '  ', 'https://t.co/djJchmJF2p', 'Owner', ':', 'B', 'Car', ':', '@Tesla', ' ', '#', 'Tesla', '#', 'Model3', '#', 'TeslaModel3', '#', 'electric', '#', 'cars', '#', 'red', '#', 'sundayvibes', '#', 'sunset', '#', 'photoshoot', '#', 'behindthescenes', '#', 'bts', '#', 'cars', '#', 'rt', '#', 'turo', '#', 'business', '#', 'tech', '#', 'goodmorning', ' ', 'https://t.co/3bLPilCFdR']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #Model3
+- Hashtags: #TeslaModel3
+- Hashtags: #electric
+- Hashtags: #cars
+- Hashtags: #red
+- Hashtags: #sundayvibes
+- Hashtags: #sunset
+- Hashtags: #photoshoot
+- Hashtags: #behindthescenes
+- Hashtags: #bts
+- Hashtags: #cars
+- Hashtags: #rt
+- Hashtags: #turo
+- Hashtags: #business
+- Hashtags: #tech
+- Hashtags: #goodmorning
+
+POST 19
+----------------------------------------------------------------------------------------------------
+Original:
+So funny thing about this guy - he picked me up in Scottsdale in a #Uber and we start talking about ⁦@elonmusk⁩ and ⁦@DogelonMars⁩ and #investing in he pulls out his phone shows me his #tesla stocks he has millions of dollars in Tesla and is #hodling for way more 💎👏  https://t.co/fGmEUekn1Z
+
+Ground Truth:
+Hashtags: ['#Uber', '#investing', '#tesla', '#hodling']
+Mentions: ['@elonmusk', '@DogelonMars']
+URLs: ['https://t.co/fGmEUekn1Z']
+Emojis: ['💎', '👏']
+
+Tokenizer Output:
+['So', 'funny', 'thing', 'about', 'this', 'guy', '-', 'he', 'picked', 'me', 'up', 'in', 'Scottsdale', 'in', 'a', '#', 'Uber', 'and', 'we', 'start', 'talking', 'about', '\u2066@elonmusk\u2069', 'and', '\u2066@DogelonMars\u2069', 'and', '#', 'investing', 'in', 'he', 'pulls', 'out', 'his', 'phone', 'shows', 'me', 'his', '#', 'tesla', 'stocks', 'he', 'has', 'millions', 'of', 'dollars', 'in', 'Tesla', 'and', 'is', '#', 'hodling', 'for', 'way', 'more', '💎', '👏', ' ', 'https://t.co/fGmEUekn1Z']
+
+Errors:
+- Hashtags: #Uber
+- Hashtags: #investing
+- Hashtags: #tesla
+- Hashtags: #hodling
+- Mentions: @elonmusk
+- Mentions: @DogelonMars
+
+POST 20
+----------------------------------------------------------------------------------------------------
+Original:
+"American Farm Truck"  Painted on a random used cigar box😀  #Tesla #ElonMusk #cybertruck #art #illustration  @elonmusk  https://t.co/fsm7GCdeEF
+
+Ground Truth:
+Hashtags: ['#Tesla', '#ElonMusk', '#cybertruck', '#art', '#illustration']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/fsm7GCdeEF']
+Emojis: ['😀']
+
+Tokenizer Output:
+['"', 'American', 'Farm', 'Truck', '"', ' ', 'Painted', 'on', 'a', 'random', 'used', 'cigar', 'box', '😀', ' ', '#', 'Tesla', '#', 'ElonMusk', '#', 'cybertruck', '#', 'art', '#', 'illustration', ' ', '@elonmusk', ' ', 'https://t.co/fsm7GCdeEF']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #ElonMusk
+- Hashtags: #cybertruck
+- Hashtags: #art
+- Hashtags: #illustration
+
+POST 21
+----------------------------------------------------------------------------------------------------
+Original:
+Retweet selected by the  https://t.co/11ojAZA3Wf team |  Tesla's U.S. factory to stay open as coronavirus lockdown begins: report #technology  https://t.co/JO1tCX99ma  https://t.co/VRWbg8ZCWR
+
+Ground Truth:
+Hashtags: ['#technology']
+Mentions: []
+URLs: ['https://t.co/11ojAZA3Wf', 'https://t.co/JO1tCX99ma', 'https://t.co/VRWbg8ZCWR']
+Emojis: []
+
+Tokenizer Output:
+['Retweet', 'selected', 'by', 'the', ' ', 'https://t.co/11ojAZA3Wf', 'team', '|', ' ', 'Tesla', "'s", 'U.S.', 'factory', 'to', 'stay', 'open', 'as', 'coronavirus', 'lockdown', 'begins', ':', 'report', '#', 'technology', ' ', 'https://t.co/JO1tCX99ma', ' ', 'https://t.co/VRWbg8ZCWR']
+
+Errors:
+- Hashtags: #technology
+
+POST 22
+----------------------------------------------------------------------------------------------------
+Original:
+In the coming future, #Tesla is gonna face some real competition from the Indian market, unless they #MakeInIndia. Kudos to #olaelectric for their amazing work.
+
+Ground Truth:
+Hashtags: ['#Tesla', '#MakeInIndia', '#olaelectric']
+Mentions: []
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['In', 'the', 'coming', 'future', ',', '#', 'Tesla', 'is', 'gon', 'na', 'face', 'some', 'real', 'competition', 'from', 'the', 'Indian', 'market', ',', 'unless', 'they', '#', 'MakeInIndia', '.', 'Kudos', 'to', '#', 'olaelectric', 'for', 'their', 'amazing', 'work', '.']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #MakeInIndia
+- Hashtags: #olaelectric
+
+POST 23
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom #Dogecoin is essential to the future because there is close to no way two countries who use it as legal tender would ever bomb each other. Buying nukes with that cute little face? Nah, use it for love instead :)
+
+Ground Truth:
+Hashtags: ['#Dogecoin']
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom', '#', 'Dogecoin', 'is', 'essential', 'to', 'the', 'future', 'because', 'there', 'is', 'close', 'to', 'no', 'way', 'two', 'countries', 'who', 'use', 'it', 'as', 'legal', 'tender', 'would', 'ever', 'bomb', 'each', 'other', '.', 'Buying', 'nukes', 'with', 'that', 'cute', 'little', 'face', '?', 'Nah', ',', 'use', 'it', 'for', 'love', 'instead', ':)']
+
+Errors:
+- Hashtags: #Dogecoin
+
+POST 24
+----------------------------------------------------------------------------------------------------
+Original:
+@TD_Tesla Not all countries are gonna go for #BTC anyways, so not all 7-8b ppl will have crypto. Just like not all countries go for #USD now. The countries that will hold #BTC back will want to control their people with fiat currencies with inflationary environments.
+
+Ground Truth:
+Hashtags: ['#BTC', '#USD', '#BTC']
+Mentions: ['@TD_Tesla']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@TD_Tesla', 'Not', 'all', 'countries', 'are', 'gon', 'na', 'go', 'for', '#', 'BTC', 'anyways', ',', 'so', 'not', 'all', '7', '-', '8b', 'ppl', 'will', 'have', 'crypto', '.', 'Just', 'like', 'not', 'all', 'countries', 'go', 'for', '#', 'USD', 'now', '.', 'The', 'countries', 'that', 'will', 'hold', '#', 'BTC', 'back', 'will', 'want', 'to', 'control', 'their', 'people', 'with', 'fiat', 'currencies', 'with', 'inflationary', 'environments', '.']
+
+Errors:
+- Hashtags: #BTC
+- Hashtags: #USD
+- Hashtags: #BTC
+
+POST 35
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk #Think about buying a country , #Mexico ? You could turn it into the Richest Country in the world, with Trump as President and all his people moving to Mexico with their own #Constitution  and to boot all the cheap labor you would ever need for @Tesla  @SafetyMentalst
+
+Ground Truth:
+Hashtags: ['#Think', '#Mexico', '#Constitution']
+Mentions: ['@elonmusk', '@Tesla', '@SafetyMentalst']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', ' ', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@Tesla', ' ', '@SafetyMentalst']
+
+Errors:
+- Hashtags: #Think
+- Hashtags: #Mexico
+- Hashtags: #Constitution
+
+POST 39
+----------------------------------------------------------------------------------------------------
+Original:
+@Tesla @elonmusk #Think about buying a country , #Mexico ? You could turn it into the Richest Country in the world, with Trump as President and all his people moving to Mexico with their own #Constitution  and to boot all the cheap labor you would ever need for @Tesla  @SafetyMentalst
+
+Ground Truth:
+Hashtags: ['#Think', '#Mexico', '#Constitution']
+Mentions: ['@Tesla', '@elonmusk', '@Tesla', '@SafetyMentalst']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@Tesla', '@elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', ' ', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@Tesla', ' ', '@SafetyMentalst']
+
+Errors:
+- Hashtags: #Think
+- Hashtags: #Mexico
+- Hashtags: #Constitution
+
+POST 49
+----------------------------------------------------------------------------------------------------
+Original:
+The engagement between Elon Musk and Twitter was short lived. What are your thoughts on this mega-deal collapsing?  https://t.co/hjHR2R9FEl   #twitter #elonmusk #tesla  https://t.co/xh45BdFj9y
+
+Ground Truth:
+Hashtags: ['#twitter', '#elonmusk', '#tesla']
+Mentions: []
+URLs: ['https://t.co/hjHR2R9FEl', 'https://t.co/xh45BdFj9y']
+Emojis: []
+
+Tokenizer Output:
+['The', 'engagement', 'between', 'Elon', 'Musk', 'and', 'Twitter', 'was', 'short', 'lived', '.', 'What', 'are', 'your', 'thoughts', 'on', 'this', 'mega', '-', 'deal', 'collapsing', '?', ' ', 'https://t.co/hjHR2R9FEl', '  ', '#', 'twitter', '#', 'elonmusk', '#', 'tesla', ' ', 'https://t.co/xh45BdFj9y']
+
+Errors:
+- Hashtags: #twitter
+- Hashtags: #elonmusk
+- Hashtags: #tesla
+
+====================================================================================================
+NLTK Word Tokenize
+====================================================================================================
+
+POST 1
+----------------------------------------------------------------------------------------------------
+Original:
+#ICYMI  #Vibes To Ease You Back Into The #Work Week! Join Me In The Latest #Liveone #HIPHOP #RnB Countdown...U Pick Em, I Play Em @liveone   Listen On The Job, On The Go...In Ya @Tesla  ▶️ https://t.co/xLTr3ndbDM  https://t.co/cbYgGKVetn
+
+Ground Truth:
+Hashtags: ['#ICYMI', '#Vibes', '#Work', '#Liveone', '#HIPHOP', '#RnB']
+Mentions: ['@liveone', '@Tesla']
+URLs: ['https://t.co/xLTr3ndbDM', 'https://t.co/cbYgGKVetn']
+Emojis: ['▶️']
+
+Tokenizer Output:
+['#', 'ICYMI', '#', 'Vibes', 'To', 'Ease', 'You', 'Back', 'Into', 'The', '#', 'Work', 'Week', '!', 'Join', 'Me', 'In', 'The', 'Latest', '#', 'Liveone', '#', 'HIPHOP', '#', 'RnB', 'Countdown', '...', 'U', 'Pick', 'Em', ',', 'I', 'Play', 'Em', '@', 'liveone', 'Listen', 'On', 'The', 'Job', ',', 'On', 'The', 'Go', '...', 'In', 'Ya', '@', 'Tesla', '▶️', 'https', ':', '//t.co/xLTr3ndbDM', 'https', ':', '//t.co/cbYgGKVetn']
+
+Errors:
+- Hashtags: #ICYMI
+- Hashtags: #Vibes
+- Hashtags: #Work
+- Hashtags: #Liveone
+- Hashtags: #HIPHOP
+- Hashtags: #RnB
+- Mentions: @liveone
+- Mentions: @Tesla
+- URLs: https://t.co/xLTr3ndbDM
+- URLs: https://t.co/cbYgGKVetn
+
+POST 2
+----------------------------------------------------------------------------------------------------
+Original:
+@rovercrc #btc I guess it will go higher this week maybe 70k lol 😆 @cryptocom $tesla #BNB #Bitcoin  https://t.co/H4ivHAJac2
+
+Ground Truth:
+Hashtags: ['#btc', '#BNB', '#Bitcoin']
+Mentions: ['@rovercrc', '@cryptocom']
+URLs: ['https://t.co/H4ivHAJac2']
+Emojis: ['😆']
+
+Tokenizer Output:
+['@', 'rovercrc', '#', 'btc', 'I', 'guess', 'it', 'will', 'go', 'higher', 'this', 'week', 'maybe', '70k', 'lol', '😆', '@', 'cryptocom', '$', 'tesla', '#', 'BNB', '#', 'Bitcoin', 'https', ':', '//t.co/H4ivHAJac2']
+
+Errors:
+- Hashtags: #btc
+- Hashtags: #BNB
+- Hashtags: #Bitcoin
+- Mentions: @rovercrc
+- Mentions: @cryptocom
+- URLs: https://t.co/H4ivHAJac2
+
+POST 3
+----------------------------------------------------------------------------------------------------
+Original:
+I'm without glasses so I cannot see if he had a Tesla logo... lol 😆 🤣 😂  I'm very happy he played chess. #chess @FIDE_chess @USChess  https://t.co/hWUrAqttlZ
+
+Ground Truth:
+Hashtags: ['#chess']
+Mentions: ['@FIDE_chess', '@USChess']
+URLs: ['https://t.co/hWUrAqttlZ']
+Emojis: ['😆', '🤣', '😂']
+
+Tokenizer Output:
+['I', "'m", 'without', 'glasses', 'so', 'I', 'can', 'not', 'see', 'if', 'he', 'had', 'a', 'Tesla', 'logo', '...', 'lol', '😆', '🤣', '😂', 'I', "'m", 'very', 'happy', 'he', 'played', 'chess', '.', '#', 'chess', '@', 'FIDE_chess', '@', 'USChess', 'https', ':', '//t.co/hWUrAqttlZ']
+
+Errors:
+- Hashtags: #chess
+- Mentions: @FIDE_chess
+- Mentions: @USChess
+- URLs: https://t.co/hWUrAqttlZ
+
+POST 4
+----------------------------------------------------------------------------------------------------
+Original:
+@VoltInuOfficial My entry  $volt #volt #voltinu  Nikola Tesla beats Thomas Edison in creating the most powerful source of electricity ⚡️  https://t.co/KWoXJXj4n6
+
+Ground Truth:
+Hashtags: ['#volt', '#voltinu']
+Mentions: ['@VoltInuOfficial']
+URLs: ['https://t.co/KWoXJXj4n6']
+Emojis: ['⚡']
+
+Tokenizer Output:
+['@', 'VoltInuOfficial', 'My', 'entry', '$', 'volt', '#', 'volt', '#', 'voltinu', 'Nikola', 'Tesla', 'beats', 'Thomas', 'Edison', 'in', 'creating', 'the', 'most', 'powerful', 'source', 'of', 'electricity', '⚡️', 'https', ':', '//t.co/KWoXJXj4n6']
+
+Errors:
+- Hashtags: #volt
+- Hashtags: #voltinu
+- Mentions: @VoltInuOfficial
+- URLs: https://t.co/KWoXJXj4n6
+- Emojis: ⚡
+
+POST 5
+----------------------------------------------------------------------------------------------------
+Original:
+@socratesxoxo @thefarcentrist @ThomasMoneyhon @coldgamecrispy @TheAlexisKraft @elonmusk "He also paid off his debt unlike u did"  Boy, you're just full of your ASSuming self aren't you. 🤭  So the 2 ..3 guys that started Tesla 'were not revolutionizing' the electric car industry  🤦‍♀️  Show me my "misinformation"  I've attached a few of yours  ...  https://t.co/39IFmDq79y
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@socratesxoxo', '@thefarcentrist', '@ThomasMoneyhon', '@coldgamecrispy', '@TheAlexisKraft', '@elonmusk']
+URLs: ['https://t.co/39IFmDq79y']
+Emojis: ['🤭', '🤦\u200d♀️']
+
+Tokenizer Output:
+['@', 'socratesxoxo', '@', 'thefarcentrist', '@', 'ThomasMoneyhon', '@', 'coldgamecrispy', '@', 'TheAlexisKraft', '@', 'elonmusk', '``', 'He', 'also', 'paid', 'off', 'his', 'debt', 'unlike', 'u', 'did', "''", 'Boy', ',', 'you', "'re", 'just', 'full', 'of', 'your', 'ASSuming', 'self', 'are', "n't", 'you', '.', '🤭', 'So', 'the', '2', '..', '3', 'guys', 'that', 'started', 'Tesla', "'", 'were', 'not', 'revolutionizing', "'", 'the', 'electric', 'car', 'industry', '🤦\u200d♀️', 'Show', 'me', 'my', '``', 'misinformation', "''", 'I', "'ve", 'attached', 'a', 'few', 'of', 'yours', '...', 'https', ':', '//t.co/39IFmDq79y']
+
+Errors:
+- Mentions: @socratesxoxo
+- Mentions: @thefarcentrist
+- Mentions: @ThomasMoneyhon
+- Mentions: @coldgamecrispy
+- Mentions: @TheAlexisKraft
+- Mentions: @elonmusk
+- URLs: https://t.co/39IFmDq79y
+
+POST 6
+----------------------------------------------------------------------------------------------------
+Original:
+Want to charge ⚡️your non-@tesla at a public Supercharger site? Fancy some of Elon's electrons? @Nickishields takes you through the whole process...  See the full video and other charging guides:  https://t.co/RSpqLajjjd #tesla #supercharging  https://t.co/fKj9kmySuB
+
+Ground Truth:
+Hashtags: ['#tesla', '#supercharging']
+Mentions: ['@tesla', '@Nickishields']
+URLs: ['https://t.co/RSpqLajjjd', 'https://t.co/fKj9kmySuB']
+Emojis: ['⚡']
+
+Tokenizer Output:
+['Want', 'to', 'charge', '⚡️your', 'non-', '@', 'tesla', 'at', 'a', 'public', 'Supercharger', 'site', '?', 'Fancy', 'some', 'of', 'Elon', "'s", 'electrons', '?', '@', 'Nickishields', 'takes', 'you', 'through', 'the', 'whole', 'process', '...', 'See', 'the', 'full', 'video', 'and', 'other', 'charging', 'guides', ':', 'https', ':', '//t.co/RSpqLajjjd', '#', 'tesla', '#', 'supercharging', 'https', ':', '//t.co/fKj9kmySuB']
+
+Errors:
+- Hashtags: #tesla
+- Hashtags: #supercharging
+- Mentions: @tesla
+- Mentions: @Nickishields
+- URLs: https://t.co/RSpqLajjjd
+- URLs: https://t.co/fKj9kmySuB
+- Emojis: ⚡
+
+POST 7
+----------------------------------------------------------------------------------------------------
+Original:
+"The #nickel reserve in #Quebec can DOUBLE."  Find out when @CampbellMccrary of #AMVESTCapital invites Tony Guo CEO of Nickel North $NNX.V  🗓 1:00pm EST Thurs July 14, 2022 #Join 👉  https://t.co/qoeqcRlZX7 #cleanenergy #battery $TSLA @Tesla @JulesInvest @Rivian @RivianChat  https://t.co/K6NKeAkweZ
+
+Ground Truth:
+Hashtags: ['#nickel', '#Quebec', '#AMVESTCapital', '#Join', '#cleanenergy', '#battery']
+Mentions: ['@CampbellMccrary', '@Tesla', '@JulesInvest', '@Rivian', '@RivianChat']
+URLs: ['https://t.co/qoeqcRlZX7', 'https://t.co/K6NKeAkweZ']
+Emojis: ['🗓', '👉']
+
+Tokenizer Output:
+['``', 'The', '#', 'nickel', 'reserve', 'in', '#', 'Quebec', 'can', 'DOUBLE', '.', "''", 'Find', 'out', 'when', '@', 'CampbellMccrary', 'of', '#', 'AMVESTCapital', 'invites', 'Tony', 'Guo', 'CEO', 'of', 'Nickel', 'North', '$', 'NNX.V', '🗓', '1:00pm', 'EST', 'Thurs', 'July', '14', ',', '2022', '#', 'Join', '👉', 'https', ':', '//t.co/qoeqcRlZX7', '#', 'cleanenergy', '#', 'battery', '$', 'TSLA', '@', 'Tesla', '@', 'JulesInvest', '@', 'Rivian', '@', 'RivianChat', 'https', ':', '//t.co/K6NKeAkweZ']
+
+Errors:
+- Hashtags: #nickel
+- Hashtags: #Quebec
+- Hashtags: #AMVESTCapital
+- Hashtags: #Join
+- Hashtags: #cleanenergy
+- Hashtags: #battery
+- Mentions: @CampbellMccrary
+- Mentions: @Tesla
+- Mentions: @JulesInvest
+- Mentions: @Rivian
+- Mentions: @RivianChat
+- URLs: https://t.co/qoeqcRlZX7
+- URLs: https://t.co/K6NKeAkweZ
+
+POST 8
+----------------------------------------------------------------------------------------------------
+Original:
+Gotta be nice to your Tesla ‘s. 🤖on wheels. @elonmusk @WholeMarsBlog @teslaownersSV @TeslaDiva99 @TeslaJoy @28delayslater  https://t.co/TlRnIUxIb6
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@WholeMarsBlog', '@teslaownersSV', '@TeslaDiva99', '@TeslaJoy', '@28delayslater']
+URLs: ['https://t.co/TlRnIUxIb6']
+Emojis: ['🤖']
+
+Tokenizer Output:
+['Got', 'ta', 'be', 'nice', 'to', 'your', 'Tesla', '‘', 's', '.', '🤖on', 'wheels', '.', '@', 'elonmusk', '@', 'WholeMarsBlog', '@', 'teslaownersSV', '@', 'TeslaDiva99', '@', 'TeslaJoy', '@', '28delayslater', 'https', ':', '//t.co/TlRnIUxIb6']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @WholeMarsBlog
+- Mentions: @teslaownersSV
+- Mentions: @TeslaDiva99
+- Mentions: @TeslaJoy
+- Mentions: @28delayslater
+- URLs: https://t.co/TlRnIUxIb6
+- Emojis: 🤖
+
+POST 9
+----------------------------------------------------------------------------------------------------
+Original:
+Modern day Nikola #Tesla 🤔🤔🤔 what do you think? 🔥🔥🔥 #ElonMusk @elonmusk #dogearmy #dogecoin  https://t.co/Fc2ZSBmRcG
+
+Ground Truth:
+Hashtags: ['#Tesla', '#ElonMusk', '#dogearmy', '#dogecoin']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/Fc2ZSBmRcG']
+Emojis: ['🤔', '🤔', '🤔', '🔥', '🔥', '🔥']
+
+Tokenizer Output:
+['Modern', 'day', 'Nikola', '#', 'Tesla', '🤔🤔🤔', 'what', 'do', 'you', 'think', '?', '🔥🔥🔥', '#', 'ElonMusk', '@', 'elonmusk', '#', 'dogearmy', '#', 'dogecoin', 'https', ':', '//t.co/Fc2ZSBmRcG']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #ElonMusk
+- Hashtags: #dogearmy
+- Hashtags: #dogecoin
+- Mentions: @elonmusk
+- URLs: https://t.co/Fc2ZSBmRcG
+- Emojis: 🤔
+- Emojis: 🤔
+- Emojis: 🤔
+- Emojis: 🔥
+- Emojis: 🔥
+- Emojis: 🔥
+
+POST 10
+----------------------------------------------------------------------------------------------------
+Original:
+Day 4 of posting this meme until @elonmusk delivers the first refreshed Model S &amp; X in Europe. ⚡️ #Tesla $TSLA #TeslaModelS #TeslaModelX  https://t.co/TELpNeOXJK
+
+Ground Truth:
+Hashtags: ['#Tesla', '#TeslaModelS', '#TeslaModelX']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/TELpNeOXJK']
+Emojis: ['⚡']
+
+Tokenizer Output:
+['Day', '4', 'of', 'posting', 'this', 'meme', 'until', '@', 'elonmusk', 'delivers', 'the', 'first', 'refreshed', 'Model', 'S', '&', 'amp', ';', 'X', 'in', 'Europe', '.', '⚡️', '#', 'Tesla', '$', 'TSLA', '#', 'TeslaModelS', '#', 'TeslaModelX', 'https', ':', '//t.co/TELpNeOXJK']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #TeslaModelS
+- Hashtags: #TeslaModelX
+- Mentions: @elonmusk
+- URLs: https://t.co/TELpNeOXJK
+- Emojis: ⚡
+
+POST 11
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk And say u wanna buy #twitter to be able to sell 8 billion worth of Tesla share and shove your losses in people’ hole… while you had no intention of buying it at first place. @elonmusk is a dangerous man❌
+
+Ground Truth:
+Hashtags: ['#twitter']
+Mentions: ['@elonmusk', '@elonmusk']
+URLs: []
+Emojis: ['❌']
+
+Tokenizer Output:
+['@', 'elonmusk', 'And', 'say', 'u', 'wan', 'na', 'buy', '#', 'twitter', 'to', 'be', 'able', 'to', 'sell', '8', 'billion', 'worth', 'of', 'Tesla', 'share', 'and', 'shove', 'your', 'losses', 'in', 'people', '’', 'hole…', 'while', 'you', 'had', 'no', 'intention', 'of', 'buying', 'it', 'at', 'first', 'place', '.', '@', 'elonmusk', 'is', 'a', 'dangerous', 'man❌']
+
+Errors:
+- Hashtags: #twitter
+- Mentions: @elonmusk
+- Mentions: @elonmusk
+- Emojis: ❌
+
+POST 12
+----------------------------------------------------------------------------------------------------
+Original:
+This three wheeled solar #electric car charges on the go💡 🎥@IntEngineering #innovation #ElectricVehicles #solarcar #Car #energy #Tesla #ElonMusk #technology #innovationnews  https://t.co/drBh3hbtFb
+
+Ground Truth:
+Hashtags: ['#electric', '#innovation', '#ElectricVehicles', '#solarcar', '#Car', '#energy', '#Tesla', '#ElonMusk', '#technology', '#innovationnews']
+Mentions: ['@IntEngineering']
+URLs: ['https://t.co/drBh3hbtFb']
+Emojis: ['💡', '🎥']
+
+Tokenizer Output:
+['This', 'three', 'wheeled', 'solar', '#', 'electric', 'car', 'charges', 'on', 'the', 'go💡', '🎥', '@', 'IntEngineering', '#', 'innovation', '#', 'ElectricVehicles', '#', 'solarcar', '#', 'Car', '#', 'energy', '#', 'Tesla', '#', 'ElonMusk', '#', 'technology', '#', 'innovationnews', 'https', ':', '//t.co/drBh3hbtFb']
+
+Errors:
+- Hashtags: #electric
+- Hashtags: #innovation
+- Hashtags: #ElectricVehicles
+- Hashtags: #solarcar
+- Hashtags: #Car
+- Hashtags: #energy
+- Hashtags: #Tesla
+- Hashtags: #ElonMusk
+- Hashtags: #technology
+- Hashtags: #innovationnews
+- Mentions: @IntEngineering
+- URLs: https://t.co/drBh3hbtFb
+- Emojis: 💡
+
+POST 13
+----------------------------------------------------------------------------------------------------
+Original:
+Maybe they'll get a shot of @elonmusk 's space @Tesla he launched a while back!  👋👋👋👋👋  #JamesWebbSpaceTelescope #Biden #Musk #Space #SpaceX  https://t.co/4CW6WSdvuR
+
+Ground Truth:
+Hashtags: ['#JamesWebbSpaceTelescope', '#Biden', '#Musk', '#Space', '#SpaceX']
+Mentions: ['@elonmusk', '@Tesla']
+URLs: ['https://t.co/4CW6WSdvuR']
+Emojis: ['👋', '👋', '👋', '👋', '👋']
+
+Tokenizer Output:
+['Maybe', 'they', "'ll", 'get', 'a', 'shot', 'of', '@', 'elonmusk', "'s", 'space', '@', 'Tesla', 'he', 'launched', 'a', 'while', 'back', '!', '👋👋👋👋👋', '#', 'JamesWebbSpaceTelescope', '#', 'Biden', '#', 'Musk', '#', 'Space', '#', 'SpaceX', 'https', ':', '//t.co/4CW6WSdvuR']
+
+Errors:
+- Hashtags: #JamesWebbSpaceTelescope
+- Hashtags: #Biden
+- Hashtags: #Musk
+- Hashtags: #Space
+- Hashtags: #SpaceX
+- Mentions: @elonmusk
+- Mentions: @Tesla
+- URLs: https://t.co/4CW6WSdvuR
+- Emojis: 👋
+- Emojis: 👋
+- Emojis: 👋
+- Emojis: 👋
+- Emojis: 👋
+
+POST 14
+----------------------------------------------------------------------------------------------------
+Original:
+$TSLA 1/1 woke up &amp; making 40% on a trade 🤣   Bang!   @retradez @MandoTrading @MikeTone_ @Ivan_Avalos8 @ShivamThanvi  #tesla #tessie #spy #spx #LoveIsland  https://t.co/EjevsTQ9DX
+
+Ground Truth:
+Hashtags: ['#tesla', '#tessie', '#spy', '#spx', '#LoveIsland']
+Mentions: ['@retradez', '@MandoTrading', '@MikeTone_', '@Ivan_Avalos8', '@ShivamThanvi']
+URLs: ['https://t.co/EjevsTQ9DX']
+Emojis: ['🤣']
+
+Tokenizer Output:
+['$', 'TSLA', '1/1', 'woke', 'up', '&', 'amp', ';', 'making', '40', '%', 'on', 'a', 'trade', '🤣', 'Bang', '!', '@', 'retradez', '@', 'MandoTrading', '@', 'MikeTone_', '@', 'Ivan_Avalos8', '@', 'ShivamThanvi', '#', 'tesla', '#', 'tessie', '#', 'spy', '#', 'spx', '#', 'LoveIsland', 'https', ':', '//t.co/EjevsTQ9DX']
+
+Errors:
+- Hashtags: #tesla
+- Hashtags: #tessie
+- Hashtags: #spy
+- Hashtags: #spx
+- Hashtags: #LoveIsland
+- Mentions: @retradez
+- Mentions: @MandoTrading
+- Mentions: @MikeTone_
+- Mentions: @Ivan_Avalos8
+- Mentions: @ShivamThanvi
+- URLs: https://t.co/EjevsTQ9DX
+
+POST 15
+----------------------------------------------------------------------------------------------------
+Original:
+All Youngsters Role model 🤩  He is The Biggest Businessman &amp; Richest man In World  Our Name is The CEO of Tesla Motors &amp; SpaceX @elonmusk  #ElonMusk #Tesla #SpaceX #BusinessMan #Richestman  https://t.co/p375ycTqnG
+
+Ground Truth:
+Hashtags: ['#ElonMusk', '#Tesla', '#SpaceX', '#BusinessMan', '#Richestman']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/p375ycTqnG']
+Emojis: ['🤩']
+
+Tokenizer Output:
+['All', 'Youngsters', 'Role', 'model', '🤩', 'He', 'is', 'The', 'Biggest', 'Businessman', '&', 'amp', ';', 'Richest', 'man', 'In', 'World', 'Our', 'Name', 'is', 'The', 'CEO', 'of', 'Tesla', 'Motors', '&', 'amp', ';', 'SpaceX', '@', 'elonmusk', '#', 'ElonMusk', '#', 'Tesla', '#', 'SpaceX', '#', 'BusinessMan', '#', 'Richestman', 'https', ':', '//t.co/p375ycTqnG']
+
+Errors:
+- Hashtags: #ElonMusk
+- Hashtags: #Tesla
+- Hashtags: #SpaceX
+- Hashtags: #BusinessMan
+- Hashtags: #Richestman
+- Mentions: @elonmusk
+- URLs: https://t.co/p375ycTqnG
+
+POST 16
+----------------------------------------------------------------------------------------------------
+Original:
+@CurrentRevolt An Amish lifestyle...lol. No word on not charging your Tesla &amp; riding horse and carriage,but hand wash your dishes.🙄 As a former Californian,they sent these warnings to us too. These are 🚩🚩of what's to come to Texas . PS,there's  almost no wind energy being produced rn either.  https://t.co/G6HJI0JDlr
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@CurrentRevolt']
+URLs: ['https://t.co/G6HJI0JDlr']
+Emojis: ['🙄', '🚩', '🚩']
+
+Tokenizer Output:
+['@', 'CurrentRevolt', 'An', 'Amish', 'lifestyle', '...', 'lol', '.', 'No', 'word', 'on', 'not', 'charging', 'your', 'Tesla', '&', 'amp', ';', 'riding', 'horse', 'and', 'carriage', ',', 'but', 'hand', 'wash', 'your', 'dishes.🙄', 'As', 'a', 'former', 'Californian', ',', 'they', 'sent', 'these', 'warnings', 'to', 'us', 'too', '.', 'These', 'are', '🚩🚩of', 'what', "'s", 'to', 'come', 'to', 'Texas', '.', 'PS', ',', 'there', "'s", 'almost', 'no', 'wind', 'energy', 'being', 'produced', 'rn', 'either', '.', 'https', ':', '//t.co/G6HJI0JDlr']
+
+Errors:
+- Mentions: @CurrentRevolt
+- URLs: https://t.co/G6HJI0JDlr
+- Emojis: 🙄
+- Emojis: 🚩
+- Emojis: 🚩
+
+POST 17
+----------------------------------------------------------------------------------------------------
+Original:
+Yesterday's Shoot (My 1st Tesla Shoot)  📸🎥 @redlinesproject   https://t.co/djJchmJF2p Owner: B Car: @Tesla  #Tesla #Model3 #TeslaModel3 #electric #cars #red #sundayvibes #sunset #photoshoot #behindthescenes #bts #cars #rt #turo #business #tech #goodmorning  https://t.co/3bLPilCFdR
+
+Ground Truth:
+Hashtags: ['#Tesla', '#Model3', '#TeslaModel3', '#electric', '#cars', '#red', '#sundayvibes', '#sunset', '#photoshoot', '#behindthescenes', '#bts', '#cars', '#rt', '#turo', '#business', '#tech', '#goodmorning']
+Mentions: ['@redlinesproject', '@Tesla']
+URLs: ['https://t.co/djJchmJF2p', 'https://t.co/3bLPilCFdR']
+Emojis: ['📸', '🎥']
+
+Tokenizer Output:
+['Yesterday', "'s", 'Shoot', '(', 'My', '1st', 'Tesla', 'Shoot', ')', '📸🎥', '@', 'redlinesproject', 'https', ':', '//t.co/djJchmJF2p', 'Owner', ':', 'B', 'Car', ':', '@', 'Tesla', '#', 'Tesla', '#', 'Model3', '#', 'TeslaModel3', '#', 'electric', '#', 'cars', '#', 'red', '#', 'sundayvibes', '#', 'sunset', '#', 'photoshoot', '#', 'behindthescenes', '#', 'bts', '#', 'cars', '#', 'rt', '#', 'turo', '#', 'business', '#', 'tech', '#', 'goodmorning', 'https', ':', '//t.co/3bLPilCFdR']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #Model3
+- Hashtags: #TeslaModel3
+- Hashtags: #electric
+- Hashtags: #cars
+- Hashtags: #red
+- Hashtags: #sundayvibes
+- Hashtags: #sunset
+- Hashtags: #photoshoot
+- Hashtags: #behindthescenes
+- Hashtags: #bts
+- Hashtags: #cars
+- Hashtags: #rt
+- Hashtags: #turo
+- Hashtags: #business
+- Hashtags: #tech
+- Hashtags: #goodmorning
+- Mentions: @redlinesproject
+- Mentions: @Tesla
+- URLs: https://t.co/djJchmJF2p
+- URLs: https://t.co/3bLPilCFdR
+- Emojis: 📸
+- Emojis: 🎥
+
+POST 18
+----------------------------------------------------------------------------------------------------
+Original:
+@SawyerMerritt People mad at Elon for [insert FUD]: “I’m never gonna buy a Tesla and instead will pay 10x more for a way worse product” 🙄 ok buddy  https://t.co/9aNMZ2Q9Vj
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@SawyerMerritt']
+URLs: ['https://t.co/9aNMZ2Q9Vj']
+Emojis: ['🙄']
+
+Tokenizer Output:
+['@', 'SawyerMerritt', 'People', 'mad', 'at', 'Elon', 'for', '[', 'insert', 'FUD', ']', ':', '“', 'I', '’', 'm', 'never', 'gon', 'na', 'buy', 'a', 'Tesla', 'and', 'instead', 'will', 'pay', '10x', 'more', 'for', 'a', 'way', 'worse', 'product', '”', '🙄', 'ok', 'buddy', 'https', ':', '//t.co/9aNMZ2Q9Vj']
+
+Errors:
+- Mentions: @SawyerMerritt
+- URLs: https://t.co/9aNMZ2Q9Vj
+
+POST 19
+----------------------------------------------------------------------------------------------------
+Original:
+So funny thing about this guy - he picked me up in Scottsdale in a #Uber and we start talking about ⁦@elonmusk⁩ and ⁦@DogelonMars⁩ and #investing in he pulls out his phone shows me his #tesla stocks he has millions of dollars in Tesla and is #hodling for way more 💎👏  https://t.co/fGmEUekn1Z
+
+Ground Truth:
+Hashtags: ['#Uber', '#investing', '#tesla', '#hodling']
+Mentions: ['@elonmusk', '@DogelonMars']
+URLs: ['https://t.co/fGmEUekn1Z']
+Emojis: ['💎', '👏']
+
+Tokenizer Output:
+['So', 'funny', 'thing', 'about', 'this', 'guy', '-', 'he', 'picked', 'me', 'up', 'in', 'Scottsdale', 'in', 'a', '#', 'Uber', 'and', 'we', 'start', 'talking', 'about', '\u2066', '@', 'elonmusk\u2069', 'and', '\u2066', '@', 'DogelonMars\u2069', 'and', '#', 'investing', 'in', 'he', 'pulls', 'out', 'his', 'phone', 'shows', 'me', 'his', '#', 'tesla', 'stocks', 'he', 'has', 'millions', 'of', 'dollars', 'in', 'Tesla', 'and', 'is', '#', 'hodling', 'for', 'way', 'more', '💎👏', 'https', ':', '//t.co/fGmEUekn1Z']
+
+Errors:
+- Hashtags: #Uber
+- Hashtags: #investing
+- Hashtags: #tesla
+- Hashtags: #hodling
+- Mentions: @elonmusk
+- Mentions: @DogelonMars
+- URLs: https://t.co/fGmEUekn1Z
+- Emojis: 💎
+- Emojis: 👏
+
+POST 20
+----------------------------------------------------------------------------------------------------
+Original:
+"American Farm Truck"  Painted on a random used cigar box😀  #Tesla #ElonMusk #cybertruck #art #illustration  @elonmusk  https://t.co/fsm7GCdeEF
+
+Ground Truth:
+Hashtags: ['#Tesla', '#ElonMusk', '#cybertruck', '#art', '#illustration']
+Mentions: ['@elonmusk']
+URLs: ['https://t.co/fsm7GCdeEF']
+Emojis: ['😀']
+
+Tokenizer Output:
+['``', 'American', 'Farm', 'Truck', "''", 'Painted', 'on', 'a', 'random', 'used', 'cigar', 'box😀', '#', 'Tesla', '#', 'ElonMusk', '#', 'cybertruck', '#', 'art', '#', 'illustration', '@', 'elonmusk', 'https', ':', '//t.co/fsm7GCdeEF']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #ElonMusk
+- Hashtags: #cybertruck
+- Hashtags: #art
+- Hashtags: #illustration
+- Mentions: @elonmusk
+- URLs: https://t.co/fsm7GCdeEF
+- Emojis: 😀
+
+POST 21
+----------------------------------------------------------------------------------------------------
+Original:
+Retweet selected by the  https://t.co/11ojAZA3Wf team |  Tesla's U.S. factory to stay open as coronavirus lockdown begins: report #technology  https://t.co/JO1tCX99ma  https://t.co/VRWbg8ZCWR
+
+Ground Truth:
+Hashtags: ['#technology']
+Mentions: []
+URLs: ['https://t.co/11ojAZA3Wf', 'https://t.co/JO1tCX99ma', 'https://t.co/VRWbg8ZCWR']
+Emojis: []
+
+Tokenizer Output:
+['Retweet', 'selected', 'by', 'the', 'https', ':', '//t.co/11ojAZA3Wf', 'team', '|', 'Tesla', "'s", 'U.S.', 'factory', 'to', 'stay', 'open', 'as', 'coronavirus', 'lockdown', 'begins', ':', 'report', '#', 'technology', 'https', ':', '//t.co/JO1tCX99ma', 'https', ':', '//t.co/VRWbg8ZCWR']
+
+Errors:
+- Hashtags: #technology
+- URLs: https://t.co/11ojAZA3Wf
+- URLs: https://t.co/JO1tCX99ma
+- URLs: https://t.co/VRWbg8ZCWR
+
+POST 22
+----------------------------------------------------------------------------------------------------
+Original:
+In the coming future, #Tesla is gonna face some real competition from the Indian market, unless they #MakeInIndia. Kudos to #olaelectric for their amazing work.
+
+Ground Truth:
+Hashtags: ['#Tesla', '#MakeInIndia', '#olaelectric']
+Mentions: []
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['In', 'the', 'coming', 'future', ',', '#', 'Tesla', 'is', 'gon', 'na', 'face', 'some', 'real', 'competition', 'from', 'the', 'Indian', 'market', ',', 'unless', 'they', '#', 'MakeInIndia', '.', 'Kudos', 'to', '#', 'olaelectric', 'for', 'their', 'amazing', 'work', '.']
+
+Errors:
+- Hashtags: #Tesla
+- Hashtags: #MakeInIndia
+- Hashtags: #olaelectric
+
+POST 23
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom #Dogecoin is essential to the future because there is close to no way two countries who use it as legal tender would ever bomb each other. Buying nukes with that cute little face? Nah, use it for love instead :)
+
+Ground Truth:
+Hashtags: ['#Dogecoin']
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', '#', 'Dogecoin', 'is', 'essential', 'to', 'the', 'future', 'because', 'there', 'is', 'close', 'to', 'no', 'way', 'two', 'countries', 'who', 'use', 'it', 'as', 'legal', 'tender', 'would', 'ever', 'bomb', 'each', 'other', '.', 'Buying', 'nukes', 'with', 'that', 'cute', 'little', 'face', '?', 'Nah', ',', 'use', 'it', 'for', 'love', 'instead', ':', ')']
+
+Errors:
+- Hashtags: #Dogecoin
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 24
+----------------------------------------------------------------------------------------------------
+Original:
+@TD_Tesla Not all countries are gonna go for #BTC anyways, so not all 7-8b ppl will have crypto. Just like not all countries go for #USD now. The countries that will hold #BTC back will want to control their people with fiat currencies with inflationary environments.
+
+Ground Truth:
+Hashtags: ['#BTC', '#USD', '#BTC']
+Mentions: ['@TD_Tesla']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'TD_Tesla', 'Not', 'all', 'countries', 'are', 'gon', 'na', 'go', 'for', '#', 'BTC', 'anyways', ',', 'so', 'not', 'all', '7-8b', 'ppl', 'will', 'have', 'crypto', '.', 'Just', 'like', 'not', 'all', 'countries', 'go', 'for', '#', 'USD', 'now', '.', 'The', 'countries', 'that', 'will', 'hold', '#', 'BTC', 'back', 'will', 'want', 'to', 'control', 'their', 'people', 'with', 'fiat', 'currencies', 'with', 'inflationary', 'environments', '.']
+
+Errors:
+- Hashtags: #BTC
+- Hashtags: #USD
+- Hashtags: #BTC
+- Mentions: @TD_Tesla
+
+POST 25
+----------------------------------------------------------------------------------------------------
+Original:
+@abeerong Like tesla or a audi u got futuristic body
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@abeerong']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'abeerong', 'Like', 'tesla', 'or', 'a', 'audi', 'u', 'got', 'futuristic', 'body']
+
+Errors:
+- Mentions: @abeerong
+
+POST 26
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk I don’t know how to play chess, but this this pretty funny. Also Elon, I’m gonna get a Tesla someday.
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', 'I', 'don', '’', 't', 'know', 'how', 'to', 'play', 'chess', ',', 'but', 'this', 'this', 'pretty', 'funny', '.', 'Also', 'Elon', ',', 'I', '’', 'm', 'gon', 'na', 'get', 'a', 'Tesla', 'someday', '.']
+
+Errors:
+- Mentions: @elonmusk
+
+POST 27
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Nah, i am gonna pass
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Nah', ',', 'i', 'am', 'gon', 'na', 'pass']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 28
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk You were never gonna buy Twitter anyway because you can't afford it and didn't believe in free speech in the first place, you just wanted to buy it to bring your daddy trump back. Tesla sucks just like you
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', 'You', 'were', 'never', 'gon', 'na', 'buy', 'Twitter', 'anyway', 'because', 'you', 'ca', "n't", 'afford', 'it', 'and', 'did', "n't", 'believe', 'in', 'free', 'speech', 'in', 'the', 'first', 'place', ',', 'you', 'just', 'wanted', 'to', 'buy', 'it', 'to', 'bring', 'your', 'daddy', 'trump', 'back', '.', 'Tesla', 'sucks', 'just', 'like', 'you']
+
+Errors:
+- Mentions: @elonmusk
+
+POST 29
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Lol In Nigeria here We are overpopulated for the type of infrastructure we have
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Lol', 'In', 'Nigeria', 'here', 'We', 'are', 'overpopulated', 'for', 'the', 'type', 'of', 'infrastructure', 'we', 'have']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 30
+----------------------------------------------------------------------------------------------------
+Original:
+@iamraisini @elonmusk Imma assume you shorted Tesla ? Lol
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@iamraisini', '@elonmusk']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'iamraisini', '@', 'elonmusk', 'Imma', 'assume', 'you', 'shorted', 'Tesla', '?', 'Lol']
+
+Errors:
+- Mentions: @iamraisini
+- Mentions: @elonmusk
+
+POST 31
+----------------------------------------------------------------------------------------------------
+Original:
+@unusual_whales @ERCOT_ISO I'm going to charge my Tesla, dry my clothes, wash my dishes, lower my AC temp, turn on every light, and play games on three different computers all at the same time.  Ya'll want to charge an arm and a leg for electricity and fix nothing.  Im gonna use what I pay for.
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@unusual_whales', '@ERCOT_ISO']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'unusual_whales', '@', 'ERCOT_ISO', 'I', "'m", 'going', 'to', 'charge', 'my', 'Tesla', ',', 'dry', 'my', 'clothes', ',', 'wash', 'my', 'dishes', ',', 'lower', 'my', 'AC', 'temp', ',', 'turn', 'on', 'every', 'light', ',', 'and', 'play', 'games', 'on', 'three', 'different', 'computers', 'all', 'at', 'the', 'same', 'time', '.', 'Ya', "'ll", 'want', 'to', 'charge', 'an', 'arm', 'and', 'a', 'leg', 'for', 'electricity', 'and', 'fix', 'nothing', '.', 'Im', 'gon', 'na', 'use', 'what', 'I', 'pay', 'for', '.']
+
+Errors:
+- Mentions: @unusual_whales
+- Mentions: @ERCOT_ISO
+
+POST 32
+----------------------------------------------------------------------------------------------------
+Original:
+@iamgabesanchez @elonmusk Odds that court discovers some questionable buying of Twitter just before his announcement, some sales at peak price and some shorts just before he made the first bot comments? This is gonna be Elon v Taking Tesla Private with secured Saudi funds v2.0.
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@iamgabesanchez', '@elonmusk']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'iamgabesanchez', '@', 'elonmusk', 'Odds', 'that', 'court', 'discovers', 'some', 'questionable', 'buying', 'of', 'Twitter', 'just', 'before', 'his', 'announcement', ',', 'some', 'sales', 'at', 'peak', 'price', 'and', 'some', 'shorts', 'just', 'before', 'he', 'made', 'the', 'first', 'bot', 'comments', '?', 'This', 'is', 'gon', 'na', 'be', 'Elon', 'v', 'Taking', 'Tesla', 'Private', 'with', 'secured', 'Saudi', 'funds', 'v2.0', '.']
+
+Errors:
+- Mentions: @iamgabesanchez
+- Mentions: @elonmusk
+
+POST 33
+----------------------------------------------------------------------------------------------------
+Original:
+@GailAlfarATX @elonmusk @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom I have six. 4 of them still live at home being homeschooled -taught self-education , research. Beyond public education. This nation has pushed society in the wrong direction. Change time
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@GailAlfarATX', '@elonmusk', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'GailAlfarATX', '@', 'elonmusk', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'I', 'have', 'six', '.', '4', 'of', 'them', 'still', 'live', 'at', 'home', 'being', 'homeschooled', '-taught', 'self-education', ',', 'research', '.', 'Beyond', 'public', 'education', '.', 'This', 'nation', 'has', 'pushed', 'society', 'in', 'the', 'wrong', 'direction', '.', 'Change', 'time']
+
+Errors:
+- Mentions: @GailAlfarATX
+- Mentions: @elonmusk
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 34
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Then go for your dozen kids… you are just missing 3 more!!! Go for it!!
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Then', 'go', 'for', 'your', 'dozen', 'kids…', 'you', 'are', 'just', 'missing', '3', 'more', '!', '!', '!', 'Go', 'for', 'it', '!', '!']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 35
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk #Think about buying a country , #Mexico ? You could turn it into the Richest Country in the world, with Trump as President and all his people moving to Mexico with their own #Constitution  and to boot all the cheap labor you would ever need for @Tesla  @SafetyMentalst
+
+Ground Truth:
+Hashtags: ['#Think', '#Mexico', '#Constitution']
+Mentions: ['@elonmusk', '@Tesla', '@SafetyMentalst']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@', 'Tesla', '@', 'SafetyMentalst']
+
+Errors:
+- Hashtags: #Think
+- Hashtags: #Mexico
+- Hashtags: #Constitution
+- Mentions: @elonmusk
+- Mentions: @Tesla
+- Mentions: @SafetyMentalst
+
+POST 36
+----------------------------------------------------------------------------------------------------
+Original:
+@get_innocuous Actual receipts, and yet you haven’t asked anyone to buy you a Tesla. Grifters on the right probably rake in 5k for every 100 spent! If you DID set up a gofund me, this would be a worthy cause!
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@get_innocuous']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'get_innocuous', 'Actual', 'receipts', ',', 'and', 'yet', 'you', 'haven', '’', 't', 'asked', 'anyone', 'to', 'buy', 'you', 'a', 'Tesla', '.', 'Grifters', 'on', 'the', 'right', 'probably', 'rake', 'in', '5k', 'for', 'every', '100', 'spent', '!', 'If', 'you', 'DID', 'set', 'up', 'a', 'gofund', 'me', ',', 'this', 'would', 'be', 'a', 'worthy', 'cause', '!']
+
+Errors:
+- Mentions: @get_innocuous
+
+POST 38
+----------------------------------------------------------------------------------------------------
+Original:
+for sale: 2021 Used TESLA MODEL Y STANDARD RANGE. REAR WHEEL DRIVE.  Autopilot. Midnight Silver. Black. 16,800-miles. $64,900. Lincoln. Nebraska.   https://t.co/8OXKGIOTMm
+
+Ground Truth:
+Hashtags: []
+Mentions: []
+URLs: ['https://t.co/8OXKGIOTMm']
+Emojis: []
+
+Tokenizer Output:
+['for', 'sale', ':', '2021', 'Used', 'TESLA', 'MODEL', 'Y', 'STANDARD', 'RANGE', '.', 'REAR', 'WHEEL', 'DRIVE', '.', 'Autopilot', '.', 'Midnight', 'Silver', '.', 'Black', '.', '16,800-miles', '.', '$', '64,900', '.', 'Lincoln', '.', 'Nebraska', '.', 'https', ':', '//t.co/8OXKGIOTMm']
+
+Errors:
+- URLs: https://t.co/8OXKGIOTMm
+
+POST 39
+----------------------------------------------------------------------------------------------------
+Original:
+@Tesla @elonmusk #Think about buying a country , #Mexico ? You could turn it into the Richest Country in the world, with Trump as President and all his people moving to Mexico with their own #Constitution  and to boot all the cheap labor you would ever need for @Tesla  @SafetyMentalst
+
+Ground Truth:
+Hashtags: ['#Think', '#Mexico', '#Constitution']
+Mentions: ['@Tesla', '@elonmusk', '@Tesla', '@SafetyMentalst']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'Tesla', '@', 'elonmusk', '#', 'Think', 'about', 'buying', 'a', 'country', ',', '#', 'Mexico', '?', 'You', 'could', 'turn', 'it', 'into', 'the', 'Richest', 'Country', 'in', 'the', 'world', ',', 'with', 'Trump', 'as', 'President', 'and', 'all', 'his', 'people', 'moving', 'to', 'Mexico', 'with', 'their', 'own', '#', 'Constitution', 'and', 'to', 'boot', 'all', 'the', 'cheap', 'labor', 'you', 'would', 'ever', 'need', 'for', '@', 'Tesla', '@', 'SafetyMentalst']
+
+Errors:
+- Hashtags: #Think
+- Hashtags: #Mexico
+- Hashtags: #Constitution
+- Mentions: @Tesla
+- Mentions: @elonmusk
+- Mentions: @Tesla
+- Mentions: @SafetyMentalst
+
+POST 40
+----------------------------------------------------------------------------------------------------
+Original:
+$TSLA  not a full MacD cross down yet, but remember - buy under $700 and sell over $700 on Tesla. I mentioned last week I sold half my lot at $750 ahead of what I expect to be weak earnings. I'll be buying more on weakness. Look at the chart @TrendSpider  https://t.co/uclABEgB7h
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@TrendSpider']
+URLs: ['https://t.co/uclABEgB7h']
+Emojis: []
+
+Tokenizer Output:
+['$', 'TSLA', 'not', 'a', 'full', 'MacD', 'cross', 'down', 'yet', ',', 'but', 'remember', '-', 'buy', 'under', '$', '700', 'and', 'sell', 'over', '$', '700', 'on', 'Tesla', '.', 'I', 'mentioned', 'last', 'week', 'I', 'sold', 'half', 'my', 'lot', 'at', '$', '750', 'ahead', 'of', 'what', 'I', 'expect', 'to', 'be', 'weak', 'earnings', '.', 'I', "'ll", 'be', 'buying', 'more', 'on', 'weakness', '.', 'Look', 'at', 'the', 'chart', '@', 'TrendSpider', 'https', ':', '//t.co/uclABEgB7h']
+
+Errors:
+- Mentions: @TrendSpider
+- URLs: https://t.co/uclABEgB7h
+
+POST 41
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom as far as I remember, Leonardo da Vinci already wrote in his scripts that children should be conceived and raised in love so that they have a valuable life, and that means that children are love,  like Leonardo i believe, love is important from the very first moment
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'as', 'far', 'as', 'I', 'remember', ',', 'Leonardo', 'da', 'Vinci', 'already', 'wrote', 'in', 'his', 'scripts', 'that', 'children', 'should', 'be', 'conceived', 'and', 'raised', 'in', 'love', 'so', 'that', 'they', 'have', 'a', 'valuable', 'life', ',', 'and', 'that', 'means', 'that', 'children', 'are', 'love', ',', 'like', 'Leonardo', 'i', 'believe', ',', 'love', 'is', 'important', 'from', 'the', 'very', 'first', 'moment']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 42
+----------------------------------------------------------------------------------------------------
+Original:
+@RickMcIntosh16 @greg16676935420 @elonmusk Let’s me real , no average American is going to pay 40K to 70K for a car when they can barely afford cost of a new car right now   Tesla is not recession proof and when the economy starts shitting brinks , Tesla is fucked. No wonder why Elon wanted twitter
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@RickMcIntosh16', '@greg16676935420', '@elonmusk']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'RickMcIntosh16', '@', 'greg16676935420', '@', 'elonmusk', 'Let', '’', 's', 'me', 'real', ',', 'no', 'average', 'American', 'is', 'going', 'to', 'pay', '40K', 'to', '70K', 'for', 'a', 'car', 'when', 'they', 'can', 'barely', 'afford', 'cost', 'of', 'a', 'new', 'car', 'right', 'now', 'Tesla', 'is', 'not', 'recession', 'proof', 'and', 'when', 'the', 'economy', 'starts', 'shitting', 'brinks', ',', 'Tesla', 'is', 'fucked', '.', 'No', 'wonder', 'why', 'Elon', 'wanted', 'twitter']
+
+Errors:
+- Mentions: @RickMcIntosh16
+- Mentions: @greg16676935420
+- Mentions: @elonmusk
+
+POST 43
+----------------------------------------------------------------------------------------------------
+Original:
+@Turbo8oost @senafan1901 @FrederickZiffel @RobertELBowman You are now becoming a joke. Clutching at straws trying to make out your beloved Tesla is the only answer. It's laughable and why America is lagging behind in going "green" I'm sure it will soon be against your constitution! As we say, (not in a good way), " Only in America!"
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@Turbo8oost', '@senafan1901', '@FrederickZiffel', '@RobertELBowman']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'Turbo8oost', '@', 'senafan1901', '@', 'FrederickZiffel', '@', 'RobertELBowman', 'You', 'are', 'now', 'becoming', 'a', 'joke', '.', 'Clutching', 'at', 'straws', 'trying', 'to', 'make', 'out', 'your', 'beloved', 'Tesla', 'is', 'the', 'only', 'answer', '.', 'It', "'s", 'laughable', 'and', 'why', 'America', 'is', 'lagging', 'behind', 'in', 'going', '``', 'green', "''", 'I', "'m", 'sure', 'it', 'will', 'soon', 'be', 'against', 'your', 'constitution', '!', 'As', 'we', 'say', ',', '(', 'not', 'in', 'a', 'good', 'way', ')', ',', '``', 'Only', 'in', 'America', '!', "''"]
+
+Errors:
+- Mentions: @Turbo8oost
+- Mentions: @senafan1901
+- Mentions: @FrederickZiffel
+- Mentions: @RobertELBowman
+
+POST 44
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom How weird has the world gotten that we need reminders that children are essential to our future 😂.
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: ['😂']
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'How', 'weird', 'has', 'the', 'world', 'gotten', 'that', 'we', 'need', 'reminders', 'that', 'children', 'are', 'essential', 'to', 'our', 'future', '😂', '.']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 45
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk chances we get airplay to tesla? Wouldn’t mind getting Xbox play on tesla either 😏
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk']
+URLs: []
+Emojis: ['😏']
+
+Tokenizer Output:
+['@', 'elonmusk', 'chances', 'we', 'get', 'airplay', 'to', 'tesla', '?', 'Wouldn', '’', 't', 'mind', 'getting', 'Xbox', 'play', 'on', 'tesla', 'either', '😏']
+
+Errors:
+- Mentions: @elonmusk
+
+POST 46
+----------------------------------------------------------------------------------------------------
+Original:
+@JamesHoffmann3 @TaylorOgan @Christiano92 @bagguley @physics_savage @kunalbht 1- When a car passes me or a motorcycle is coming from the opposite direction, my M3 2019 swerves to the right. 2- A ridicule amount of phantom breaking  Service center response:  This is cause by radar, Remove emergency brake function!!!  Robotaxi ready?🤣🤣🤣 @Tesla @elonmusk
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@JamesHoffmann3', '@TaylorOgan', '@Christiano92', '@bagguley', '@physics_savage', '@kunalbht', '@Tesla', '@elonmusk']
+URLs: []
+Emojis: ['🤣', '🤣', '🤣']
+
+Tokenizer Output:
+['@', 'JamesHoffmann3', '@', 'TaylorOgan', '@', 'Christiano92', '@', 'bagguley', '@', 'physics_savage', '@', 'kunalbht', '1-', 'When', 'a', 'car', 'passes', 'me', 'or', 'a', 'motorcycle', 'is', 'coming', 'from', 'the', 'opposite', 'direction', ',', 'my', 'M3', '2019', 'swerves', 'to', 'the', 'right', '.', '2-', 'A', 'ridicule', 'amount', 'of', 'phantom', 'breaking', 'Service', 'center', 'response', ':', 'This', 'is', 'cause', 'by', 'radar', ',', 'Remove', 'emergency', 'brake', 'function', '!', '!', '!', 'Robotaxi', 'ready', '?', '🤣🤣🤣', '@', 'Tesla', '@', 'elonmusk']
+
+Errors:
+- Mentions: @JamesHoffmann3
+- Mentions: @TaylorOgan
+- Mentions: @Christiano92
+- Mentions: @bagguley
+- Mentions: @physics_savage
+- Mentions: @kunalbht
+- Mentions: @Tesla
+- Mentions: @elonmusk
+- Emojis: 🤣
+- Emojis: 🤣
+- Emojis: 🤣
+
+POST 47
+----------------------------------------------------------------------------------------------------
+Original:
+Tesla previews a solar-powered ‘trailer’ - The Independent  https://t.co/00CPxDeG63
+
+Ground Truth:
+Hashtags: []
+Mentions: []
+URLs: ['https://t.co/00CPxDeG63']
+Emojis: []
+
+Tokenizer Output:
+['Tesla', 'previews', 'a', 'solar-powered', '‘', 'trailer', '’', '-', 'The', 'Independent', 'https', ':', '//t.co/00CPxDeG63']
+
+Errors:
+- URLs: https://t.co/00CPxDeG63
+
+POST 48
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom ALL children are of infinite value.
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'ALL', 'children', 'are', 'of', 'infinite', 'value', '.']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+
+POST 49
+----------------------------------------------------------------------------------------------------
+Original:
+The engagement between Elon Musk and Twitter was short lived. What are your thoughts on this mega-deal collapsing?  https://t.co/hjHR2R9FEl   #twitter #elonmusk #tesla  https://t.co/xh45BdFj9y
+
+Ground Truth:
+Hashtags: ['#twitter', '#elonmusk', '#tesla']
+Mentions: []
+URLs: ['https://t.co/hjHR2R9FEl', 'https://t.co/xh45BdFj9y']
+Emojis: []
+
+Tokenizer Output:
+['The', 'engagement', 'between', 'Elon', 'Musk', 'and', 'Twitter', 'was', 'short', 'lived', '.', 'What', 'are', 'your', 'thoughts', 'on', 'this', 'mega-deal', 'collapsing', '?', 'https', ':', '//t.co/hjHR2R9FEl', '#', 'twitter', '#', 'elonmusk', '#', 'tesla', 'https', ':', '//t.co/xh45BdFj9y']
+
+Errors:
+- Hashtags: #twitter
+- Hashtags: #elonmusk
+- Hashtags: #tesla
+- URLs: https://t.co/hjHR2R9FEl
+- URLs: https://t.co/xh45BdFj9y
+
+POST 50
+----------------------------------------------------------------------------------------------------
+Original:
+@elonmusk @GailAlfarATX @Tesla @teslacn @TeslaOwnersEBay @blueskykites @Kristennetten @JenniCurrent @daelmor @IheartTesla @EvrybodynthrMom Not necessarily
+
+Ground Truth:
+Hashtags: []
+Mentions: ['@elonmusk', '@GailAlfarATX', '@Tesla', '@teslacn', '@TeslaOwnersEBay', '@blueskykites', '@Kristennetten', '@JenniCurrent', '@daelmor', '@IheartTesla', '@EvrybodynthrMom']
+URLs: []
+Emojis: []
+
+Tokenizer Output:
+['@', 'elonmusk', '@', 'GailAlfarATX', '@', 'Tesla', '@', 'teslacn', '@', 'TeslaOwnersEBay', '@', 'blueskykites', '@', 'Kristennetten', '@', 'JenniCurrent', '@', 'daelmor', '@', 'IheartTesla', '@', 'EvrybodynthrMom', 'Not', 'necessarily']
+
+Errors:
+- Mentions: @elonmusk
+- Mentions: @GailAlfarATX
+- Mentions: @Tesla
+- Mentions: @teslacn
+- Mentions: @TeslaOwnersEBay
+- Mentions: @blueskykites
+- Mentions: @Kristennetten
+- Mentions: @JenniCurrent
+- Mentions: @daelmor
+- Mentions: @IheartTesla
+- Mentions: @EvrybodynthrMom
+

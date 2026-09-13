@@ -1,0 +1,4 @@
+Tokenizer,Hashtag Preservation (%),Mention Preservation (%),URL Preservation (%),Emoji Preservation (%),Total Tokens,Average Tokens per Post,Hashtag Error Posts,Mention Error Posts,URL Error Posts,Emoji Error Posts
+NLTK TweetTokenizer,100.0,100.0,100.0,95.35,1814,36.28,0,0,0,2
+spaCy,0.0,97.78,100.0,95.35,2013,40.26,23,3,0,2
+NLTK Word Tokenize,0.0,0.0,0.0,34.88,2151,43.02,23,44,24,13
