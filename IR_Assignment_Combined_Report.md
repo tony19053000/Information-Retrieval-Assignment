@@ -2,7 +2,7 @@
 
 **Course**: Information Retrieval  
 **Dataset**: Tesla Twitter Corpus (`Tesla.csv`)  
-**Repository**: [GitHub Repository Placeholder](https://github.com/tony19053000/IR-Assignment-Tokenization-Normalization)
+**Repository**: [github.com/tony19053000/IR-Assignment-Tokenization-Normalization](https://github.com/tony19053000/IR-Assignment-Tokenization-Normalization)
 
 ---
 
